@@ -10,7 +10,7 @@ from idmtools_calibra.utilities.ll_calculators import beta_binomial
 import manifest
 
 user = os.getlogin()  # user initials
-expt_name = 'week3_calib'
+expt_name = f'{user}_FE_example_burnin'
 
 jdir = manifest.job_directory
 output_dir=os.path.join(jdir, 'my_outputs')

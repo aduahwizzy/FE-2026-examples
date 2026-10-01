@@ -1,6 +1,5 @@
 import pathlib
 import os
-import sys
 from functools import \
     partial 
  
@@ -18,10 +17,14 @@ import emod_api.campaign as camp
 
 #emodpy-malaria
 import emodpy_malaria.demographics.MalariaDemographics as Demographics
+import emod_api.demographics.PreDefinedDistributions as Distributions
+from emodpy_malaria.reporters.builtin import *
+from idmtools.builders import SimulationBuilder
 
 import manifest
 
-
+sim_years = 1
+num_seeds = 5
 
 def set_param_fn(config):
     """
@@ -33,6 +36,10 @@ def set_param_fn(config):
     # Defaults to 0 (off) in the installed Eradication build's schema - turn on so
     # InsetChart.json gets written to each simulation's output folder.
     config.parameters.Enable_Default_Reporting = 1
+    conf.add_species(config, manifest, ["gambiae", "arabiensis", "funestus"])
+
+    config.parameters.Simulation_Duration = sim_years*365
+    config.parameters.Run_Number = 0
 
     return config
 
@@ -52,10 +59,25 @@ def build_demog():
     This function builds a demographics input file for the DTK using emod_api.
     """
 
-    demog = Demographics.from_template_node(lat=1, lon=2, pop=10, name="Example_Site")
+    demog = Demographics.from_template_node(lat=1, lon=2, pop=10, name="Navrongo")
 
+    demog.SetEquilibriumVitalDynamics()
+
+    age_distribution = Distributions.AgeDistribution_SSAfrica
+    demog.SetAgeDistribution(age_distribution)
     return demog
 
+def set_param(simulation, param, value):
+    """
+    Set specific parameter value
+    Args:
+        simulation: idmtools Simulation
+        param: parameter
+        value: new value
+    Returns:
+        dict
+    """
+    return simulation.task.set_parameter(param, value)
 
 def general_sim(selected_platform):
     """
@@ -89,12 +111,31 @@ def general_sim(selected_platform):
     
     # set the singularity image to be used when running this experiment
     # task.set_sif(manifest.SIF_PATH, platform)
+    task.common_assets.add_directory(os.path.join(manifest.input_dir,
+        "example_weather", "out"), relative_path="climate")
 
+    builder = SimulationBuilder()
+
+    builder.add_sweep_definition(partial(set_param, param='Run_Number'), range(num_seeds))
+
+   ## reports are still located here
+
+   # create experiment from builder
+    user = os.getlogin()
+    experiment = Experiment.from_builder(builder, task, name=f'{user}_FE_example_sweeps')
 
     # create experiment from builder
-    user = os.getlogin()
-    experiment = Experiment.from_task(task, name='')
-
+    add_event_recorder(task, event_list=["HappyBirthday", "Births"],
+                       start_day=1, end_day=sim_years*365, 
+                       node_ids=[1], min_age_years=0,
+                       max_age_years=100)
+    add_malaria_summary_report(task, manifest, start_day=1, 
+                               end_day=sim_years*365, 
+                               reporting_interval=30,
+                               age_bins=[0.25, 5, 115],
+                               max_number_reports=20,
+                               filename_suffix='monthly',
+                               pretty_format=True)
 
     # The last step is to call run() on the ExperimentManager to run the simulations.
     experiment.run(wait_until_done=True, platform=platform)

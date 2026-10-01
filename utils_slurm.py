@@ -72,7 +72,8 @@ def create_sim_directory_map(exp_id: str, platform: 'IPlatform'):
     simulations = exp.simulations
     dir_list = []
     for sim in simulations:
-        dir_dict = {"simid": str(sim.id), "serialized_file_path": platform._op_client.get_directory(sim)}
+        # dir_dict = {"simid": str(sim.id), "serialized_file_path": platform._op_client.get_directory(sim)}
+        dir_dict = {"simid": str(sim.id), "serialized_file_path": platform.get_container_directory(sim)}
         dir_list.append(dir_dict)
 
     df_dir = pd.DataFrame(dir_list)

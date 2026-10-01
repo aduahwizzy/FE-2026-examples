@@ -165,7 +165,7 @@ if __name__ == "__main__":
     
     expts = {
         #'week2_weather' : '2c090358-cb7b-44e5-a2fd-842a6c23a5b7'
-        'week2_outputs' : '92e86035-aaf6-4cbf-be6d-6369586e6a2c'
+        'anaphase21_FE_example_sweeps' : '0051347e-a583-40e0-be4d-80e5d1ed9a90'
     }
     
 

@@ -96,9 +96,7 @@ if __name__ == "__main__":
     from idmtools.core.platform_factory import Platform
 
     expts = {
-        # 'week2_weather' : '2c090358-cb7b-44e5-a2fd-842a6c23a5b7'
-        # 'week2_outputs' : '26f947c3-0770-46df-bc6a-c1c77e36f686'
-        'week3_calib': 'f27386a6-3958-46b3-8ec0-08df81c67ffc'
+        'anaphase21_FE_example_calibration': '00993dc3-ce01-47c4-aff9-5d30bf00778b'
     }
 
     jdir = manifest.job_directory
@@ -109,12 +107,12 @@ if __name__ == "__main__":
 
     sweep_variables = ['Run_Number', 'x_Temporary_Larval_Habitat']
 
-    with Platform('SLURM_LOCAL', job_directory=jdir) as platform:
+    with Platform('Container', job_directory=jdir, plat_image=manifest.plat_image) as platform:
 
         for expt_name, exp_id in expts.items():
             analyzer = [MonthlyPfPRAnalyzerU5(expt_name=expt_name,
-                                              start_year=2010,
-                                              end_year=2015,
+                                              start_year=2000,
+                                              end_year=2020,
                                               sweep_variables=sweep_variables,
                                               working_dir=wdir)]
 

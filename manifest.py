@@ -25,7 +25,7 @@ ep4_path="python_scripts"
 #requirements = "./requirements.txt"
 # This is where your simulations and outputs will be stored
 user = os.getlogin()
-job_directory = os.path.join(os.path.expanduser('~'), 'FE-2026-examples/experiments')
+job_directory = os.path.join(os.path.expanduser('~'), 'emod-tutorials', 'FE-2026-examples/experiments')
 os.makedirs(job_directory, exist_ok=True)
 # This is the path to the sif image used to run EMOD
 # dtk_run_rocky_py39.sif ships Python 3.9 on an old Rocky base whose glibc is too old for the
@@ -53,3 +53,8 @@ sim_time = '2:00:00'
 
 # Maximum number of simulations SLURM will run at once for one experiment.
 max_running_jobs = 10
+
+# We will set the default platform to "Container" so that docker users can run this example without having to edit the code. 
+default_platform = platform = "Container"
+plat_image = "ghcr.io/emod-hub/emod-ubuntu-runtime:5.0.2-py39"
+# plat_image = "mcr.microsoft.com/devcontainers/python:3.9"

@@ -1,6 +1,5 @@
 import pathlib
 import os
-import sys
 from functools import \
     partial 
  
@@ -18,10 +17,12 @@ import emod_api.campaign as camp
 
 #emodpy-malaria
 import emodpy_malaria.demographics.MalariaDemographics as Demographics
+import emod_api.demographics.PreDefinedDistributions as Distributions
+from emodpy_malaria.reporters.builtin import *
 
 import manifest
 
-
+sim_years = 1
 
 def set_param_fn(config):
     """
@@ -33,6 +34,10 @@ def set_param_fn(config):
     # Defaults to 0 (off) in the installed Eradication build's schema - turn on so
     # InsetChart.json gets written to each simulation's output folder.
     config.parameters.Enable_Default_Reporting = 1
+    conf.add_species(config, manifest, ["gambiae", "arabiensis", "funestus"])
+
+    config.parameters.Simulation_Duration = sim_years*365
+    config.parameters.Run_Number = 0
 
     return config
 
@@ -52,8 +57,12 @@ def build_demog():
     This function builds a demographics input file for the DTK using emod_api.
     """
 
-    demog = Demographics.from_template_node(lat=1, lon=2, pop=10, name="Example_Site")
+    demog = Demographics.from_template_node(lat=1, lon=2, pop=10, name="Navrongo")
 
+    demog.SetEquilibriumVitalDynamics()
+
+    age_distribution = Distributions.AgeDistribution_SSAfrica
+    demog.SetAgeDistribution(age_distribution)
     return demog
 
 
@@ -92,8 +101,19 @@ def general_sim(selected_platform):
 
 
     # create experiment from builder
+    add_event_recorder(task, event_list=["HappyBirthday", "Births"],
+                       start_day=1, end_day=sim_years*365, 
+                       node_ids=[1], min_age_years=0,
+                       max_age_years=100)
+    add_malaria_summary_report(task, manifest, start_day=1, 
+                               end_day=sim_years*365, 
+                               reporting_interval=30,
+                               age_bins=[0.25, 5, 115],
+                               max_number_reports=20,
+                               filename_suffix='monthly',
+                               pretty_format=True)
     user = os.getlogin()
-    experiment = Experiment.from_task(task, name='')
+    experiment = Experiment.from_task(task, name=f'{user}_FE_example_outputs')
 
 
     # The last step is to call run() on the ExperimentManager to run the simulations.
