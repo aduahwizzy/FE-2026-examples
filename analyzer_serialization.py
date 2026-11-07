@@ -19,7 +19,7 @@ import matplotlib.dates as mdates
 
 expts = {
         #'week2_weather' : '2c090358-cb7b-44e5-a2fd-842a6c23a5b7'
-        'anaphase21_FE_example_sim_pick' : '33aa9989-b39e-424e-8607-ab62e97a1ddd'
+        'anaphase21_FE_example_pickup_proj' : '629bf235-b04c-4bb6-b159-b5db0cdd19fc'
     }
 
 class InsetChartAnalyzer(IAnalyzer):
@@ -202,7 +202,7 @@ if __name__ == "__main__":
     from idmtools.core import ItemType
     from idmtools.core.platform_factory import Platform
 
-    start_year = 2000
+    start_year = 2014
 
     jdir = manifest.job_directory
     wdir = os.path.join(jdir, 'my_outputs')
@@ -210,7 +210,7 @@ if __name__ == "__main__":
     if not os.path.exists(wdir):
         os.mkdir(wdir)
 
-    serialize_years = 50  # Same as in run_example_burnin.py
+    serialize_years = 2  # Same as in run_example_burnin.py
     step = 'pickup'
 
     sweep_variables = ['Run_Number'] 
@@ -227,23 +227,23 @@ if __name__ == "__main__":
     with Platform('Container',job_directory=jdir, docker_image=manifest.plat_image) as platform:
 
         for expt_name, exp_id in expts.items():
-            analyzers_burnin = [InsetChartAnalyzer(expt_name=expt_name,
-                                    channels=channels_inset_chart,
-                                    start_year=start_year - serialize_years,
-                                    sweep_variables=sweep_variables,
-                                    working_dir=wdir),
-                                ]
-
-            # analyzers_pickup = [InsetChartAnalyzer(expt_name=expt_name,
+            # analyzers_burnin = [InsetChartAnalyzer(expt_name=expt_name,
             #                         channels=channels_inset_chart,
-            #                         start_year=start_year,
+            #                         start_year=start_year - serialize_years,
             #                         sweep_variables=sweep_variables,
             #                         working_dir=wdir),
-            #                     MonthlyPfPRAnalyzer(expt_name=expt_name,
-            #                         start_year=start_year,
-            #                         sweep_variables=sweep_variables,
-            #                         working_dir=wdir)
             #                     ]
+
+            analyzers_pickup = [InsetChartAnalyzer(expt_name=expt_name,
+                                    channels=channels_inset_chart,
+                                    start_year=start_year,
+                                    sweep_variables=sweep_variables,
+                                    working_dir=wdir),
+                                MonthlyPfPRAnalyzer(expt_name=expt_name,
+                                    start_year=start_year,
+                                    sweep_variables=sweep_variables,
+                                    working_dir=wdir)
+                                ]
 
         if step == 'burnin':
             am = AnalyzeManager(configuration={}, ids=[(exp_id, ItemType.EXPERIMENT)],
@@ -251,7 +251,7 @@ if __name__ == "__main__":
             am.analyze()
 
         elif step == 'pickup':
-            for i in range(0, 10):
+            for i in range(0, 12):
                 malaria_summary_report_dataset_name = f'output/MalariaSummaryReport_Monthly_U5_{start_year+i}.json'
                 analyzers_pickup = [MonthlyPfPRAnalyzer(expt_name=expt_name,
                                     start_year=start_year+i,
@@ -262,14 +262,14 @@ if __name__ == "__main__":
                                 analyzers=analyzers_pickup, partial_analyze_ok=True)
                 am.analyze()
 
-            analyzers_pickup = [InsetChartAnalyzer(expt_name=expt_name,
-                                    channels=channels_inset_chart,
-                                    start_year=2000,
-                                    sweep_variables=sweep_variables,
-                                    working_dir=wdir)]
-            am = AnalyzeManager(configuration={}, ids=[(exp_id, ItemType.EXPERIMENT)],
-                                            analyzers=analyzers_pickup, partial_analyze_ok=True)
-            am.analyze()
+            # analyzers_pickup = [InsetChartAnalyzer(expt_name=expt_name,
+            #                         channels=channels_inset_chart,
+            #                         start_year=2000,
+            #                         sweep_variables=sweep_variables,
+            #                         working_dir=wdir)]
+            # am = AnalyzeManager(configuration={}, ids=[(exp_id, ItemType.EXPERIMENT)],
+            #                                 analyzers=analyzers_pickup, partial_analyze_ok=True)
+            # am.analyze()
         else:
             print('Please define step, options are burnin or pickup')
             

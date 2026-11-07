@@ -52,7 +52,7 @@ singularity_module = '/shared/emod/shared_tools/modulefiles/singularity'
 sim_time = '2:00:00'
 
 # Maximum number of simulations SLURM will run at once for one experiment.
-max_running_jobs = 10
+max_running_jobs = 2
 
 # We will set the default platform to "Container" so that docker users can run this example without having to edit the code. 
 default_platform = platform = "Container"

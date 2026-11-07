@@ -27,7 +27,7 @@ import manifest
 sim_years = 50
 num_seeds = 3
 sim_start_year = 2040
-serialize_years = 50
+serialize_years = 3
 
 def set_param_fn(config):
     """
@@ -42,13 +42,13 @@ def set_param_fn(config):
     # InsetChart.json gets written to each simulation's output folder.
     config.parameters.Enable_Default_Reporting = 1
     config.parameters.Air_Temperature_Filename = os.path.join('climate',
-        'example_air_temperature_daily.bin')
+        'air_temperature.bin')
     config.parameters.Land_Temperature_Filename = os.path.join('climate',
-        'example_air_temperature_daily.bin')
+        'land_temperature.bin')
     config.parameters.Rainfall_Filename = os.path.join('climate',
-        'example_rainfall_daily.bin')
-    config.parameters.Relative_Humidity_Filename = os.path.join('climate', 
-        'example_relative_humidity_daily.bin')
+        'rainfall.bin')
+    config.parameters.Relative_Humidity_Filename = os.path.join('climate',
+        'relative_humidity.bin')
 
     config.parameters.Simulation_Duration = sim_years*365
     config.parameters.Run_Number = 0
@@ -127,14 +127,14 @@ def general_sim(selected_platform):
     
     # set the singularity image to be used when running this experiment
     # task.set_sif(manifest.SIF_PATH, platform)
-    task.common_assets.add_directory(os.path.join(manifest.input_dir,
-        "example_weather", "out"), relative_path="climate")
+    task.common_assets.add_directory(os.path.join(os.path.dirname(__file__),
+        "climate", "emod_weather_northern_region"), relative_path="climate")
 
     builder = SimulationBuilder()
 
     builder.add_sweep_definition(partial(set_param, param='Run_Number'), range(num_seeds))
     builder.add_sweep_definition(partial(set_param, param='x_Temporary_Larval_Habitat'), np.logspace(-0.5,1,3))
-   ## reports are still located here
+   ## reports are still located her
 
    # create experiment from builder
     user = os.getlogin()

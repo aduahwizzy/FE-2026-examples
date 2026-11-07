@@ -1,0 +1,8 @@
+year,start_day_of_year,intervention,coverage,phase
+2003,20075,itn,0.078,burnin
+2006,21170,itn,0.24,burnin
+2008,21900,itn,0.535,burnin
+2010,22630,itn,0.672,burnin
+2018,1462,itn,0.854,pickup
+2019,1826,irs,0.3,pickup
+2022,2922,itn,0.676,pickup

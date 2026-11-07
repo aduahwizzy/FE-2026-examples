@@ -61,6 +61,9 @@ def set_param_fn(config):
     
     #Add calibrated larval habitat
     config.parameters.x_Temporary_Larval_Habitat = 0.98
+    config.parameters.x_Rainfall_Scaling = 0.98
+    config.parameters.x_Rainfall_Shape = 0.98
+    config
     return config
 
 

@@ -1,0 +1,166 @@
+                                                   GHFW8AFL                                                   
+                                                GHFW8AFL_DICT                                                 
+
+                                             GHFW8AFL.DCF                                                     
+                                    Last Modified:  1/11/2024  4:17:59 PM                                     
+
+--------------------------------------------------------------------------------------------------------------
+Level Name                    Level Label                                                  Type            Rec
+  Record Name                   Record Label                                              Value  Req  Max  Len
+--------------------------------------------------------------------------------------------------------------
+LEVEL_1                       Level 1                                                                         
+  FWRECORD                      Fieldworker record                                               Yes    1   51
+Level: Level 1                                         Record: Fieldworker record
+--------------------------------------------------------------------------------------------------------------
+                                                                                 Data Item            Dec Zero
+Item Name              Item Label                                     Start  Len Type Type  Occ  Dec Char Fill
+--------------------------------------------------------------------------------------------------------------
+FW101             (id) Fieldworker code|Codigo de trabajador de campo     1    4    N    I    1    0   No  Yes
+                         (record type)                                    0    0   AN    I    1    0   No   No
+FW000                  Country code and phase|Codigo de pais y fase       5    3   AN    I    1    0   No   No
+FW102                  Fieldworker region of residence|Region de resid    8    2    N    I    1    0   No   No
+                               1   Western
+                               2   Central
+                               3   Greater accra
+                               4   Volta
+                               5   Eastern
+                               6   Ashanti
+                               7   Western north
+                               8   Ahafo
+                               9   Bono
+                               10  Bono east
+                               11  Oti
+                               12  Northern
+                               13  Savannah
+                               14  North east
+                               15  Upper east
+                               16  Upper west
+FW103                  Fieldworker type of place of residence            10    1    N    I    1    0   No   No
+                               1  City|Ciudad
+                               2  Town|Pueblo
+                               3  Rural|Rural
+FW104                  Fieldworker age|Edad del trabajador de campo      11    2    N    I    1    0   No   No
+                               15:65  
+FW105                  Fieldworker sex|Sexo del trabajador de campo      13    1    N    I    1    0   No   No
+                               1  Male|Hombre
+                               2  Female|Mujer
+FW106                  Fieldworker marital status|Estado civil del tra   14    1    N    I    1    0   No   No
+                               1  Currently married|Casada(o)
+                               2  Living with a man/woman|Union libre
+                               3  Widowed|Viuda(o)
+                               4  Divorced|Divorciada(o)
+                               5  Separated|Separada(o)
+                               6  Never married or lived with a man/woman|Nunca casada(o)/unida(o)
+FW107                  Fieldworker number of living children|Numero de   15    2    N    I    1    0   No   No
+                               0:24  
+FW108                  Fieldworker ever had a child who died|Trabajado   17    1    N    I    1    0   No   No
+                               1  Yes|Si
+                               2  No|No
+FW109                  Highest level of school attended by fieldworker   18    1    N    I    1    0   No   No
+                               1  Primary|Primaire
+                               2  Middle|Secondaire
+                               3  JSS/JHS
+                               4  Secondary
+                               5  SSS/SHS
+                               6  Higher
+FW110                  Highest grade/form/year at that level completed   19    2    N    I    1    0   No   No
+                               0     Less than one year at level|Menos de un año a ese nivel
+                               1:15  
+FW110A                 Received clinical, medical, or laboratory train   21    1    N    I    1    0   No   No
+                               1  Yes|Si
+                               2  No|No
+FW110B                 Current occupational category or qualification    22    2    N    I    1    0   No   No
+                               1   MEDICAL DOCTOR
+                               2   ASSISTANT MEDICAL OFFICER
+                               3   CLINICAL OFFICER
+                               4   ASSISTANT CLINICAL OFFICER
+                               5   REGISTERED NURSE/MIDWIFE
+                               6   ENROLLED NURSE/MIDWIFE
+                               7   NURSE ASSISTANT/ATTENDANT
+                               8   LABORATORY SCIENTIST
+                               9   LABORATORY TECHNOLOGIST
+                               10  LABORATORY TECHNICIAN
+                               11  LABORATORY ASSISTANT
+                               95  NO TECHNICAL QUALIFICATION
+                               96  OTHER
+FW111                  Fieldworker religion|Religion del trabajador de   24    2    N    I    1    0   No   No
+                               1   Catholic
+                               2   Anglican
+                               3   Methodist
+                               4   Presbyterian
+                               5   Pentecostal/charismatic
+                               6   Other Christian
+                               7   Islam
+                               8   Traditional/spiritualist
+                               95  No religion
+                               96  Other
+FW112                  Fieldworker ethnicity|Grupo etnico de trabajado   26    3    N    I    1    0   No   No
+                               1   AKAN
+                               2   GA/DANGME
+                               3   EWE
+                               4   GUAN
+                               5   MOLE-DAGBANI
+                               6   GRUSI
+                               7   GURMA
+                               8   MANDE
+                               96  Other|Autre
+FW113A                 AKAN|Idioma A                                     29    1   AN    I    1    0   No   No
+                               A  AKAN|Idioma A
+FW113B                 GA/DANGME|Idioma B                                30    1   AN    I    1    0   No   No
+                               B  GA/DANGME|Idioma B
+FW113C                 EWE|Idioma C                                      31    1   AN    I    1    0   No   No
+                               C  EWE|Idioma C
+FW113D                 DAGBANI|Idioma D                                  32    1   AN    I    1    0   No   No
+                               D  DAGBANI|Idioma D
+FW113E                 NZEMA|Idioma E                                    33    1   AN    I    1    0   No   No
+                               E  NZEMA|Idioma E
+FW113F                 BRONG|Idioma F                                    34    1   AN    I    1    0   No   No
+                               F  BRONG|Idioma F
+FW113G                 Language G|Idioma G                               35    1   AN    I    1    0   No   No
+                               G  Language G|Idioma G
+FW113H                 Language H|Idioma H                               36    1   AN    I    1    0   No   No
+                               H  Language H|Idioma H
+FW113I                 Language I|Idioma I                               37    1   AN    I    1    0   No   No
+                               I  Language I|Idioma I
+FW113J                 Language J|Idioma J                               38    1   AN    I    1    0   No   No
+                               J  Language J|Idioma J
+FW113K                 Language K|Idioma K                               39    1   AN    I    1    0   No   No
+                               K  Language K|Idioma K
+FW113L                 Language L|Idioma L                               40    1   AN    I    1    0   No   No
+                               L  Language L|Idioma L
+FW113M                 Language M|Idioma M                               41    1   AN    I    1    0   No   No
+                               M  Language M|Idioma M
+FW113X                 Other language|Otro idioma                        42    1   AN    I    1    0   No   No
+                               X  Other language|Otro idioma
+FW113Y                 No other language|No habla otro idioma            43    1   AN    I    1    0   No   No
+                               Y  No other language|No habla otro idioma
+FW114                  Fieldworker's mother tongue/native language|Len   44    2    N    I    1    0   No   No
+                               1   AKAN|Idioma A
+                               2   GA/DANGME|Idioma B
+                               3   EWE|Idioma C
+                               4   DAGBANI|Idioma D
+                               5   NZEMA|Idioma E
+                               6   BRONG|Idioma F
+                               96  Other|Otro
+FW115A                 Has fieldworker ever worked on a DHS prior to t   46    1    N    I    1    0   No   No
+                               1  Yes|Si
+                               2  No|No
+FW115B                 Has fieldworker ever worked on an MIS prior to    47    1    N    I    1    0   No   No
+                               1  Yes|Si
+                               2  No|No
+FW115C                 Has fieldworker ever worked on any other survey   48    1    N    I    1    0   No   No
+                               1  Yes|Si
+                               2  No|No
+FW116                  Was fieldworker working for implementing agency   49    1    N    I    1    0   No   No
+                               1  Yes, implementing agency 1|Si, institucion implementadora 1
+                               2  Yes, implementing agency 2|Si, institucion implementadora 2
+                               3  No|No
+FW117                  Is fieldworker a permanent or temporary employe   50    1    N    I    1    0   No   No
+                               1  Permanent|Permanente
+                               2  Temporary|Temporal
+FW118                  Does fieldworker has any comments|Tiene el trab   51    1    N    I    1    0   No   No
+                               1  Yes|Si
+                               2  No|No
+--------------------------------------------------------------------------------------------------------------
+Relation Name         Primary               Linked by             Secondary             Linked by
+--------------------------------------------------------------------------------------------------------------
