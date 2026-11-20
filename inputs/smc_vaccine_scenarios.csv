@@ -1,0 +1,14 @@
+scenario_id,stage,smc_future,vaccine_future,smc_coverage_mode,smc_coverage,vaccine_completion_coverage,x_Temporary_Larval_Habitat,scale_constant,scale_temp_rain,scale_water_veg
+S0,stage1,false,false,projected_2025,0,0,6.812921,1,1.737801,1.023293
+S1,stage1,true,false,projected_2025,0,0,6.812921,1,1.737801,1.023293
+S2,stage1,false,true,projected_2025,0,0.7,6.812921,1,1.737801,1.023293
+S3,stage1,true,true,projected_2025,0,0.7,6.812921,1,1.737801,1.023293
+C1,stage2,true,true,scenario,0.7,0.5,6.812921,1,1.737801,1.023293
+C2,stage2,true,true,scenario,0.7,0.7,6.812921,1,1.737801,1.023293
+C3,stage2,true,true,scenario,0.7,0.85,6.812921,1,1.737801,1.023293
+C4,stage2,true,true,scenario,0.85,0.5,6.812921,1,1.737801,1.023293
+C5,stage2,true,true,scenario,0.85,0.7,6.812921,1,1.737801,1.023293
+C6,stage2,true,true,scenario,0.85,0.85,6.812921,1,1.737801,1.023293
+C7,stage2,true,true,scenario,0.95,0.5,6.812921,1,1.737801,1.023293
+C8,stage2,true,true,scenario,0.95,0.7,6.812921,1,1.737801,1.023293
+C9,stage2,true,true,scenario,0.95,0.85,6.812921,1,1.737801,1.023293

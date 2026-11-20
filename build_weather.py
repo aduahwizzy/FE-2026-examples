@@ -5,12 +5,14 @@ daily date range.
 Each region is an independent single-node model (node id 1), so each gets its own
 weather set in climate/emod_weather_<region>/.
 
-Run climate_fetch.py first with the same date range to produce the daily CSV.
+Run climate_fetch.py first to create the 1981-2025 daily CSV, then run
+extend_climate_history.py to create the 1963-2025 input used by default below.
 Dates must cover one or more complete 365-day windows after leap days are
 removed, as expected by EMOD's daily climate indexing.
 
 Example:
-    python build_weather.py --start-date 2019-01-01 --end-date 2023-12-31
+    python extend_climate_history.py
+    python build_weather.py
 """
 import argparse
 from datetime import date
@@ -25,7 +27,7 @@ REGIONS = {
 }
 
 NODE_ID = 1
-DEFAULT_START_DATE = date(1965, 1, 1)
+DEFAULT_START_DATE = date(1963, 1, 1)
 DEFAULT_END_DATE = date(2025, 12, 31)
 DEMOG_ID_REF = "Gridded world grump2.5arcmin"    # must match demographics IdReference
 CLIM_DIR = os.path.join(os.path.dirname(__file__), "climate")
@@ -38,7 +40,9 @@ FILE_NAMES = {
 }
 
 
-def build_region(region, lat, lon, start_date, end_date):
+def build_region(
+        region, lat, lon, start_date, end_date, output_dir=None,
+        provenance=None):
     date_key = f"{start_date:%Y%m%d}_{end_date:%Y%m%d}"
     raw_path = os.path.join(CLIM_DIR, f"{region}_{date_key}_daily_raw.csv")
     daily = pd.read_csv(raw_path, index_col=0, parse_dates=True).sort_index()
@@ -76,11 +80,13 @@ def build_region(region, lat, lon, start_date, end_date):
         start_year=start_date.year, end_year=end_date.year,
         start_doy=start_date.timetuple().tm_yday,
         lat_min=lat, lat_max=lat, lon_min=lon, lon_max=lon,
-        provenance=f"NASA POWER daily {start_date} through {end_date}, {region}",
+        provenance=provenance or (
+            f"NASA POWER daily {start_date} through {end_date}, {region}"
+        ),
         resolution="daily", update_freq="CLIMATE_UPDATE_DAY",
     )
 
-    wdir = os.path.join(CLIM_DIR, f"emod_weather_{region}")
+    wdir = output_dir or os.path.join(CLIM_DIR, f"emod_weather_{region}")
     os.makedirs(wdir, exist_ok=True)
     csv_to_weather(
         csv_data=df, node_column="nodes", step_column="steps",
@@ -106,13 +112,17 @@ def main():
                         default=DEFAULT_START_DATE, metavar="YYYY-MM-DD")
     parser.add_argument("--end-date", type=date.fromisoformat,
                         default=DEFAULT_END_DATE, metavar="YYYY-MM-DD")
+    parser.add_argument(
+        "--output-dir",
+        help="Output directory for weather files; defaults to the standard region folder.",
+    )
     args = parser.parse_args()
     if args.start_date > args.end_date:
         parser.error("--start-date must be on or before --end-date")
 
     for region, coords in REGIONS.items():
         wdir, n = build_region(region, coords["lat"], coords["lon"],
-                               args.start_date, args.end_date)
+                               args.start_date, args.end_date, args.output_dir)
         print(f"{region:12s} -> {wdir}  ({n} days, node {NODE_ID}, "
               f"{args.start_date} through {args.end_date})")
 

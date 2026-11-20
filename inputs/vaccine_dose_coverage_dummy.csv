@@ -1,0 +1,13 @@
+product,implementation,vaccine_type,vaccine_take,vaccine_initial_effect,vaccine_box_duration,vaccine_decay_time_constant,efficacy_is_multiplicative,completion_coverage,dose,dose_age_months,conditional_coverage
+R21,generic_acquisition_blocking_proxy,AcquisitionBlocking,1.0,1.0,365,100.0,1,0.50,1,6,0.95
+R21,generic_acquisition_blocking_proxy,AcquisitionBlocking,1.0,1.0,365,100.0,1,0.50,2,7,0.95
+R21,generic_acquisition_blocking_proxy,AcquisitionBlocking,1.0,1.0,365,100.0,1,0.50,3,9,0.95
+R21,generic_acquisition_blocking_proxy,AcquisitionBlocking,1.0,1.0,365,100.0,1,0.50,4,18,0.583175
+R21,generic_acquisition_blocking_proxy,AcquisitionBlocking,1.0,1.0,365,100.0,1,0.70,1,6,0.95
+R21,generic_acquisition_blocking_proxy,AcquisitionBlocking,1.0,1.0,365,100.0,1,0.70,2,7,0.95
+R21,generic_acquisition_blocking_proxy,AcquisitionBlocking,1.0,1.0,365,100.0,1,0.70,3,9,0.95
+R21,generic_acquisition_blocking_proxy,AcquisitionBlocking,1.0,1.0,365,100.0,1,0.70,4,18,0.816446
+R21,generic_acquisition_blocking_proxy,AcquisitionBlocking,1.0,1.0,365,100.0,1,0.85,1,6,0.95
+R21,generic_acquisition_blocking_proxy,AcquisitionBlocking,1.0,1.0,365,100.0,1,0.85,2,7,0.95
+R21,generic_acquisition_blocking_proxy,AcquisitionBlocking,1.0,1.0,365,100.0,1,0.85,3,9,0.95
+R21,generic_acquisition_blocking_proxy,AcquisitionBlocking,1.0,1.0,365,100.0,1,0.85,4,18,0.991398

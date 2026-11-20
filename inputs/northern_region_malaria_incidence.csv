@@ -1,0 +1,2113 @@
+Region,District,year,month,Pop_5,conf_u5
+Northern,Gushiegu,2015,January,23681,161
+Northern,Gushiegu,2015,February,23746,149
+Northern,Gushiegu,2015,March,23681,132
+Northern,Gushiegu,2015,April,23681,97
+Northern,Gushiegu,2015,May,23681,157
+Northern,Gushiegu,2015,June,23681,299
+Northern,Gushiegu,2015,July,23681,598
+Northern,Gushiegu,2015,August,23681,785
+Northern,Gushiegu,2015,September,23681,764
+Northern,Gushiegu,2015,October,23681,636
+Northern,Gushiegu,2015,November,23681,394
+Northern,Gushiegu,2015,December,23681,212
+Northern,Gushiegu,2016,January,23773,105
+Northern,Gushiegu,2016,February,23773,89
+Northern,Gushiegu,2016,March,23773,126
+Northern,Gushiegu,2016,April,23773,111
+Northern,Gushiegu,2016,May,23773,189
+Northern,Gushiegu,2016,June,23773,277
+Northern,Gushiegu,2016,July,23773,583
+Northern,Gushiegu,2016,August,23773,632
+Northern,Gushiegu,2016,September,23773,834
+Northern,Gushiegu,2016,October,23773,1012
+Northern,Gushiegu,2016,November,23773,777
+Northern,Gushiegu,2016,December,23773,501
+Northern,Gushiegu,2017,January,24266,410
+Northern,Gushiegu,2017,February,24333,203
+Northern,Gushiegu,2017,March,24266,157
+Northern,Gushiegu,2017,April,24266,159
+Northern,Gushiegu,2017,May,24266,105
+Northern,Gushiegu,2017,June,24266,154
+Northern,Gushiegu,2017,July,24266,194
+Northern,Gushiegu,2017,August,24266,514
+Northern,Gushiegu,2017,September,24266,395
+Northern,Gushiegu,2017,October,24266,295
+Northern,Gushiegu,2017,November,24266,243
+Northern,Gushiegu,2017,December,24266,150
+Northern,Gushiegu,2018,January,24833,180
+Northern,Gushiegu,2018,February,24901,204
+Northern,Gushiegu,2018,March,24833,138
+Northern,Gushiegu,2018,April,24833,128
+Northern,Gushiegu,2018,May,24833,128
+Northern,Gushiegu,2018,June,24833,129
+Northern,Gushiegu,2018,July,24833,312
+Northern,Gushiegu,2018,August,24833,412
+Northern,Gushiegu,2018,September,24833,353
+Northern,Gushiegu,2018,October,24833,356
+Northern,Gushiegu,2018,November,24833,312
+Northern,Gushiegu,2018,December,24833,237
+Northern,Gushiegu,2019,January,25418,332
+Northern,Gushiegu,2019,February,25488,261
+Northern,Gushiegu,2019,March,25418,186
+Northern,Gushiegu,2019,April,25418,181
+Northern,Gushiegu,2019,May,25418,177
+Northern,Gushiegu,2019,June,25418,249
+Northern,Gushiegu,2019,July,25418,361
+Northern,Gushiegu,2019,August,25418,377
+Northern,Gushiegu,2019,September,25418,552
+Northern,Gushiegu,2019,October,25418,462
+Northern,Gushiegu,2019,November,25418,526
+Northern,Gushiegu,2019,December,25418,239
+Northern,Gushiegu,2020,January,26072,233
+Northern,Gushiegu,2020,February,26072,320
+Northern,Gushiegu,2020,March,26072,177
+Northern,Gushiegu,2020,April,26072,143
+Northern,Gushiegu,2020,May,26072,161
+Northern,Gushiegu,2020,June,26072,418
+Northern,Gushiegu,2020,July,26072,576
+Northern,Gushiegu,2020,August,26072,520
+Northern,Gushiegu,2020,September,26072,783
+Northern,Gushiegu,2020,October,26072,1070
+Northern,Gushiegu,2020,November,26072,824
+Northern,Gushiegu,2020,December,26072,582
+Northern,Karaga,2015,January,16539,130
+Northern,Karaga,2015,February,16585,99
+Northern,Karaga,2015,March,16539,89
+Northern,Karaga,2015,April,16539,131
+Northern,Karaga,2015,May,16539,37
+Northern,Karaga,2015,June,16539,47
+Northern,Karaga,2015,July,16539,83
+Northern,Karaga,2015,August,16539,209
+Northern,Karaga,2015,September,16539,545
+Northern,Karaga,2015,October,16539,495
+Northern,Karaga,2015,November,16539,628
+Northern,Karaga,2015,December,16539,465
+Northern,Karaga,2016,January,16380,360
+Northern,Karaga,2016,February,16380,388
+Northern,Karaga,2016,March,16380,376
+Northern,Karaga,2016,April,16380,227
+Northern,Karaga,2016,May,16380,319
+Northern,Karaga,2016,June,16380,240
+Northern,Karaga,2016,July,16380,500
+Northern,Karaga,2016,August,16380,396
+Northern,Karaga,2016,September,16380,409
+Northern,Karaga,2016,October,16380,498
+Northern,Karaga,2016,November,16380,572
+Northern,Karaga,2016,December,16380,370
+Northern,Karaga,2017,January,16720,320
+Northern,Karaga,2017,February,16766,272
+Northern,Karaga,2017,March,16720,259
+Northern,Karaga,2017,April,16720,251
+Northern,Karaga,2017,May,16720,161
+Northern,Karaga,2017,June,16720,167
+Northern,Karaga,2017,July,16720,352
+Northern,Karaga,2017,August,16720,509
+Northern,Karaga,2017,September,16720,507
+Northern,Karaga,2017,October,16720,563
+Northern,Karaga,2017,November,16720,542
+Northern,Karaga,2017,December,16720,259
+Northern,Karaga,2018,January,17106,309
+Northern,Karaga,2018,February,17153,393
+Northern,Karaga,2018,March,17106,242
+Northern,Karaga,2018,April,17106,182
+Northern,Karaga,2018,May,17106,175
+Northern,Karaga,2018,June,17106,129
+Northern,Karaga,2018,July,17106,214
+Northern,Karaga,2018,August,17106,337
+Northern,Karaga,2018,September,17106,374
+Northern,Karaga,2018,October,17106,355
+Northern,Karaga,2018,November,17106,207
+Northern,Karaga,2018,December,17106,201
+Northern,Karaga,2019,January,17512,233
+Northern,Karaga,2019,February,17560,156
+Northern,Karaga,2019,March,17512,191
+Northern,Karaga,2019,April,17512,220
+Northern,Karaga,2019,May,17512,155
+Northern,Karaga,2019,June,17512,167
+Northern,Karaga,2019,July,17512,245
+Northern,Karaga,2019,August,17512,185
+Northern,Karaga,2019,September,17512,216
+Northern,Karaga,2019,October,17512,279
+Northern,Karaga,2019,November,17512,203
+Northern,Karaga,2019,December,17512,149
+Northern,Karaga,2020,January,17961,177
+Northern,Karaga,2020,February,17961,116
+Northern,Karaga,2020,March,17961,115
+Northern,Karaga,2020,April,17961,109
+Northern,Karaga,2020,May,17961,98
+Northern,Karaga,2020,June,17961,169
+Northern,Karaga,2020,July,17961,294
+Northern,Karaga,2020,August,17961,375
+Northern,Karaga,2020,September,17961,595
+Northern,Karaga,2020,October,17961,854
+Northern,Karaga,2020,November,17961,706
+Northern,Karaga,2020,December,17961,479
+Northern,Kpandai,2015,January,23161,487
+Northern,Kpandai,2015,February,23224,631
+Northern,Kpandai,2015,March,23161,359
+Northern,Kpandai,2015,April,23161,308
+Northern,Kpandai,2015,May,23161,388
+Northern,Kpandai,2015,June,23161,816
+Northern,Kpandai,2015,July,23161,837
+Northern,Kpandai,2015,August,23161,659
+Northern,Kpandai,2015,September,23161,594
+Northern,Kpandai,2015,October,23161,686
+Northern,Kpandai,2015,November,23161,674
+Northern,Kpandai,2015,December,23161,695
+Northern,Kpandai,2016,January,23247,478
+Northern,Kpandai,2016,February,23247,298
+Northern,Kpandai,2016,March,23247,181
+Northern,Kpandai,2016,April,23247,171
+Northern,Kpandai,2016,May,23247,367
+Northern,Kpandai,2016,June,23247,516
+Northern,Kpandai,2016,July,23247,504
+Northern,Kpandai,2016,August,23247,710
+Northern,Kpandai,2016,September,23247,1065
+Northern,Kpandai,2016,October,23247,1197
+Northern,Kpandai,2016,November,23247,960
+Northern,Kpandai,2016,December,23247,525
+Northern,Kpandai,2017,January,23730,489
+Northern,Kpandai,2017,February,23795,383
+Northern,Kpandai,2017,March,23730,276
+Northern,Kpandai,2017,April,23730,183
+Northern,Kpandai,2017,May,23730,303
+Northern,Kpandai,2017,June,23730,414
+Northern,Kpandai,2017,July,23730,709
+Northern,Kpandai,2017,August,23730,900
+Northern,Kpandai,2017,September,23730,1169
+Northern,Kpandai,2017,October,23730,1146
+Northern,Kpandai,2017,November,23730,803
+Northern,Kpandai,2017,December,23730,643
+Northern,Kpandai,2018,January,24280,576
+Northern,Kpandai,2018,February,24346,518
+Northern,Kpandai,2018,March,24280,325
+Northern,Kpandai,2018,April,24280,365
+Northern,Kpandai,2018,May,24280,409
+Northern,Kpandai,2018,June,24280,627
+Northern,Kpandai,2018,July,24280,772
+Northern,Kpandai,2018,August,24280,1180
+Northern,Kpandai,2018,September,24280,1097
+Northern,Kpandai,2018,October,24280,925
+Northern,Kpandai,2018,November,24280,748
+Northern,Kpandai,2018,December,24280,714
+Northern,Kpandai,2019,January,24854,596
+Northern,Kpandai,2019,February,24922,697
+Northern,Kpandai,2019,March,24854,477
+Northern,Kpandai,2019,April,24854,335
+Northern,Kpandai,2019,May,24854,371
+Northern,Kpandai,2019,June,24854,673
+Northern,Kpandai,2019,July,24854,854
+Northern,Kpandai,2019,August,24854,677
+Northern,Kpandai,2019,September,24854,653
+Northern,Kpandai,2019,October,24854,725
+Northern,Kpandai,2019,November,24854,727
+Northern,Kpandai,2019,December,24854,699
+Northern,Kpandai,2020,January,25493,493
+Northern,Kpandai,2020,February,25493,466
+Northern,Kpandai,2020,March,25493,357
+Northern,Kpandai,2020,April,25493,373
+Northern,Kpandai,2020,May,25493,432
+Northern,Kpandai,2020,June,25493,536
+Northern,Kpandai,2020,July,25493,606
+Northern,Kpandai,2020,August,25493,624
+Northern,Kpandai,2020,September,25493,718
+Northern,Kpandai,2020,October,25493,848
+Northern,Kpandai,2020,November,25493,1022
+Northern,Kpandai,2020,December,25493,690
+Northern,Kumbungu,2015,January,8278,168
+Northern,Kumbungu,2015,February,8301,107
+Northern,Kumbungu,2015,March,8278,90
+Northern,Kumbungu,2015,April,8278,117
+Northern,Kumbungu,2015,May,8278,148
+Northern,Kumbungu,2015,June,8278,208
+Northern,Kumbungu,2015,July,8278,252
+Northern,Kumbungu,2015,August,8278,206
+Northern,Kumbungu,2015,September,8278,173
+Northern,Kumbungu,2015,October,8278,295
+Northern,Kumbungu,2015,November,8278,385
+Northern,Kumbungu,2015,December,8278,270
+Northern,Kumbungu,2016,January,8455,142
+Northern,Kumbungu,2016,February,8455,120
+Northern,Kumbungu,2016,March,8455,152
+Northern,Kumbungu,2016,April,8455,110
+Northern,Kumbungu,2016,May,8455,134
+Northern,Kumbungu,2016,June,8455,168
+Northern,Kumbungu,2016,July,8455,207
+Northern,Kumbungu,2016,August,8455,268
+Northern,Kumbungu,2016,September,8455,419
+Northern,Kumbungu,2016,October,8455,402
+Northern,Kumbungu,2016,November,8455,338
+Northern,Kumbungu,2016,December,8455,129
+Northern,Kumbungu,2017,January,8630,231
+Northern,Kumbungu,2017,February,8653,254
+Northern,Kumbungu,2017,March,8630,206
+Northern,Kumbungu,2017,April,8630,170
+Northern,Kumbungu,2017,May,8630,149
+Northern,Kumbungu,2017,June,8630,173
+Northern,Kumbungu,2017,July,8630,298
+Northern,Kumbungu,2017,August,8630,418
+Northern,Kumbungu,2017,September,8630,257
+Northern,Kumbungu,2017,October,8630,365
+Northern,Kumbungu,2017,November,8630,331
+Northern,Kumbungu,2017,December,8630,238
+Northern,Kumbungu,2018,January,8829,312
+Northern,Kumbungu,2018,February,8853,232
+Northern,Kumbungu,2018,March,8829,140
+Northern,Kumbungu,2018,April,8829,92
+Northern,Kumbungu,2018,May,8829,120
+Northern,Kumbungu,2018,June,8829,134
+Northern,Kumbungu,2018,July,8829,176
+Northern,Kumbungu,2018,August,8829,188
+Northern,Kumbungu,2018,September,8829,242
+Northern,Kumbungu,2018,October,8829,397
+Northern,Kumbungu,2018,November,8829,333
+Northern,Kumbungu,2018,December,8829,137
+Northern,Kumbungu,2019,January,9037,208
+Northern,Kumbungu,2019,February,9062,131
+Northern,Kumbungu,2019,March,9037,143
+Northern,Kumbungu,2019,April,9037,101
+Northern,Kumbungu,2019,May,9037,160
+Northern,Kumbungu,2019,June,9037,276
+Northern,Kumbungu,2019,July,9037,410
+Northern,Kumbungu,2019,August,9037,238
+Northern,Kumbungu,2019,September,9037,304
+Northern,Kumbungu,2019,October,9037,293
+Northern,Kumbungu,2019,November,9037,298
+Northern,Kumbungu,2019,December,9037,189
+Northern,Kumbungu,2020,January,9268,109
+Northern,Kumbungu,2020,February,9268,110
+Northern,Kumbungu,2020,March,9268,97
+Northern,Kumbungu,2020,April,9268,89
+Northern,Kumbungu,2020,May,9268,78
+Northern,Kumbungu,2020,June,9268,87
+Northern,Kumbungu,2020,July,9268,125
+Northern,Kumbungu,2020,August,9268,202
+Northern,Kumbungu,2020,September,9268,220
+Northern,Kumbungu,2020,October,9268,354
+Northern,Kumbungu,2020,November,9268,297
+Northern,Kumbungu,2020,December,9268,172
+Northern,Mion,2015,January,17311,81
+Northern,Mion,2015,February,17358,126
+Northern,Mion,2015,March,17311,128
+Northern,Mion,2015,April,17311,207
+Northern,Mion,2015,May,17311,179
+Northern,Mion,2015,June,17311,368
+Northern,Mion,2015,July,17311,426
+Northern,Mion,2015,August,17311,566
+Northern,Mion,2015,September,17311,738
+Northern,Mion,2015,October,17311,828
+Northern,Mion,2015,November,17311,525
+Northern,Mion,2015,December,17311,268
+Northern,Mion,2016,January,17436,168
+Northern,Mion,2016,February,17436,151
+Northern,Mion,2016,March,17436,126
+Northern,Mion,2016,April,17436,124
+Northern,Mion,2016,May,17436,118
+Northern,Mion,2016,June,17436,272
+Northern,Mion,2016,July,17436,496
+Northern,Mion,2016,August,17436,468
+Northern,Mion,2016,September,17436,279
+Northern,Mion,2016,October,17436,428
+Northern,Mion,2016,November,17436,515
+Northern,Mion,2016,December,17436,267
+Northern,Mion,2017,January,17796,248
+Northern,Mion,2017,February,17845,159
+Northern,Mion,2017,March,17796,127
+Northern,Mion,2017,April,17796,144
+Northern,Mion,2017,May,17796,168
+Northern,Mion,2017,June,17796,697
+Northern,Mion,2017,July,17796,987
+Northern,Mion,2017,August,17796,1181
+Northern,Mion,2017,September,17796,1314
+Northern,Mion,2017,October,17796,1138
+Northern,Mion,2017,November,17796,822
+Northern,Mion,2017,December,17796,357
+Northern,Mion,2018,January,18292,301
+Northern,Mion,2018,February,18342,156
+Northern,Mion,2018,March,18292,180
+Northern,Mion,2018,April,18292,162
+Northern,Mion,2018,May,18292,239
+Northern,Mion,2018,June,18292,722
+Northern,Mion,2018,July,18292,749
+Northern,Mion,2018,August,18292,641
+Northern,Mion,2018,September,18292,593
+Northern,Mion,2018,October,18292,591
+Northern,Mion,2018,November,18292,445
+Northern,Mion,2018,December,18292,473
+Northern,Mion,2019,January,18642,293
+Northern,Mion,2019,February,18693,225
+Northern,Mion,2019,March,18642,228
+Northern,Mion,2019,April,18642,238
+Northern,Mion,2019,May,18642,279
+Northern,Mion,2019,June,18642,641
+Northern,Mion,2019,July,18642,665
+Northern,Mion,2019,August,18642,550
+Northern,Mion,2019,September,18642,554
+Northern,Mion,2019,October,18642,643
+Northern,Mion,2019,November,18642,646
+Northern,Mion,2019,December,18642,437
+Northern,Mion,2020,January,19118,375
+Northern,Mion,2020,February,19118,203
+Northern,Mion,2020,March,19118,100
+Northern,Mion,2020,April,19118,164
+Northern,Mion,2020,May,19118,236
+Northern,Mion,2020,June,19118,341
+Northern,Mion,2020,July,19118,433
+Northern,Mion,2020,August,19118,455
+Northern,Mion,2020,September,19118,403
+Northern,Mion,2020,October,19118,600
+Northern,Mion,2020,November,19118,640
+Northern,Mion,2020,December,19118,270
+Northern,Nanton,2015,January,10661,101
+Northern,Nanton,2015,February,10690,78
+Northern,Nanton,2015,March,10661,80
+Northern,Nanton,2015,April,10661,138
+Northern,Nanton,2015,May,10661,78
+Northern,Nanton,2015,June,10661,147
+Northern,Nanton,2015,July,10661,195
+Northern,Nanton,2015,August,10661,267
+Northern,Nanton,2015,September,10661,391
+Northern,Nanton,2015,October,10661,259
+Northern,Nanton,2015,November,10661,103
+Northern,Nanton,2015,December,10661,85
+Northern,Nanton,2016,January,10639,82
+Northern,Nanton,2016,February,10639,96
+Northern,Nanton,2016,March,10639,95
+Northern,Nanton,2016,April,10639,103
+Northern,Nanton,2016,May,10639,137
+Northern,Nanton,2016,June,10639,110
+Northern,Nanton,2016,July,10639,231
+Northern,Nanton,2016,August,10639,352
+Northern,Nanton,2016,September,10639,300
+Northern,Nanton,2016,October,10639,280
+Northern,Nanton,2016,November,10639,280
+Northern,Nanton,2016,December,10639,256
+Northern,Nanton,2017,January,10860,287
+Northern,Nanton,2017,February,10890,187
+Northern,Nanton,2017,March,10860,162
+Northern,Nanton,2017,April,10860,136
+Northern,Nanton,2017,May,10860,140
+Northern,Nanton,2017,June,10860,171
+Northern,Nanton,2017,July,10860,471
+Northern,Nanton,2017,August,10860,420
+Northern,Nanton,2017,September,10860,521
+Northern,Nanton,2017,October,10860,637
+Northern,Nanton,2017,November,10860,405
+Northern,Nanton,2017,December,10860,209
+Northern,Nanton,2018,January,11267,219
+Northern,Nanton,2018,February,11298,204
+Northern,Nanton,2018,March,11267,108
+Northern,Nanton,2018,April,11267,114
+Northern,Nanton,2018,May,11267,117
+Northern,Nanton,2018,June,11267,183
+Northern,Nanton,2018,July,11267,303
+Northern,Nanton,2018,August,11267,330
+Northern,Nanton,2018,September,11267,300
+Northern,Nanton,2018,October,11267,428
+Northern,Nanton,2018,November,11267,310
+Northern,Nanton,2018,December,11267,254
+Northern,Nanton,2019,January,11373,140
+Northern,Nanton,2019,February,11405,103
+Northern,Nanton,2019,March,11373,110
+Northern,Nanton,2019,April,11373,72
+Northern,Nanton,2019,May,11373,119
+Northern,Nanton,2019,June,11373,134
+Northern,Nanton,2019,July,11373,85
+Northern,Nanton,2019,August,11373,61
+Northern,Nanton,2019,September,11373,152
+Northern,Nanton,2019,October,11373,193
+Northern,Nanton,2019,November,11373,142
+Northern,Nanton,2019,December,11373,50
+Northern,Nanton,2020,January,11665,45
+Northern,Nanton,2020,February,11665,53
+Northern,Nanton,2020,March,11665,77
+Northern,Nanton,2020,April,11665,57
+Northern,Nanton,2020,May,11665,61
+Northern,Nanton,2020,June,11665,64
+Northern,Nanton,2020,July,11665,93
+Northern,Nanton,2020,August,11665,129
+Northern,Nanton,2020,September,11665,119
+Northern,Nanton,2020,October,11665,196
+Northern,Nanton,2020,November,11665,195
+Northern,Nanton,2020,December,11665,174
+Northern,Nanumba North,2015,January,30135,327
+Northern,Nanumba North,2015,February,30218,227
+Northern,Nanumba North,2015,March,30135,128
+Northern,Nanumba North,2015,April,30135,79
+Northern,Nanumba North,2015,May,30135,169
+Northern,Nanumba North,2015,June,30135,466
+Northern,Nanumba North,2015,July,30135,609
+Northern,Nanumba North,2015,August,30135,972
+Northern,Nanumba North,2015,September,30135,1075
+Northern,Nanumba North,2015,October,30135,818
+Northern,Nanumba North,2015,November,30135,735
+Northern,Nanumba North,2015,December,30135,617
+Northern,Nanumba North,2016,January,30112,437
+Northern,Nanumba North,2016,February,30112,420
+Northern,Nanumba North,2016,March,30112,399
+Northern,Nanumba North,2016,April,30112,511
+Northern,Nanumba North,2016,May,30112,654
+Northern,Nanumba North,2016,June,30112,930
+Northern,Nanumba North,2016,July,30112,878
+Northern,Nanumba North,2016,August,30112,674
+Northern,Nanumba North,2016,September,30112,357
+Northern,Nanumba North,2016,October,30112,693
+Northern,Nanumba North,2016,November,30112,677
+Northern,Nanumba North,2016,December,30112,710
+Northern,Nanumba North,2017,January,30732,800
+Northern,Nanumba North,2017,February,30817,588
+Northern,Nanumba North,2017,March,30732,456
+Northern,Nanumba North,2017,April,30732,480
+Northern,Nanumba North,2017,May,30732,500
+Northern,Nanumba North,2017,June,30732,909
+Northern,Nanumba North,2017,July,30732,1374
+Northern,Nanumba North,2017,August,30732,1500
+Northern,Nanumba North,2017,September,30732,1500
+Northern,Nanumba North,2017,October,30732,1527
+Northern,Nanumba North,2017,November,30732,933
+Northern,Nanumba North,2017,December,30732,569
+Northern,Nanumba North,2018,January,32834,629
+Northern,Nanumba North,2018,February,32924,393
+Northern,Nanumba North,2018,March,32834,271
+Northern,Nanumba North,2018,April,32834,272
+Northern,Nanumba North,2018,May,32834,350
+Northern,Nanumba North,2018,June,32834,822
+Northern,Nanumba North,2018,July,32834,1267
+Northern,Nanumba North,2018,August,32834,1521
+Northern,Nanumba North,2018,September,32834,1425
+Northern,Nanumba North,2018,October,32834,1262
+Northern,Nanumba North,2018,November,32834,846
+Northern,Nanumba North,2018,December,32834,780
+Northern,Nanumba North,2019,January,32198,563
+Northern,Nanumba North,2019,February,32286,352
+Northern,Nanumba North,2019,March,32198,274
+Northern,Nanumba North,2019,April,32198,338
+Northern,Nanumba North,2019,May,32198,377
+Northern,Nanumba North,2019,June,32198,847
+Northern,Nanumba North,2019,July,32198,1367
+Northern,Nanumba North,2019,August,32198,1038
+Northern,Nanumba North,2019,September,32198,736
+Northern,Nanumba North,2019,October,32198,817
+Northern,Nanumba North,2019,November,32198,897
+Northern,Nanumba North,2019,December,32198,636
+Northern,Nanumba North,2020,January,33026,629
+Northern,Nanumba North,2020,February,33026,489
+Northern,Nanumba North,2020,March,33026,388
+Northern,Nanumba North,2020,April,33026,337
+Northern,Nanumba North,2020,May,33026,383
+Northern,Nanumba North,2020,June,33026,781
+Northern,Nanumba North,2020,July,33026,809
+Northern,Nanumba North,2020,August,33026,767
+Northern,Nanumba North,2020,September,33026,817
+Northern,Nanumba North,2020,October,33026,1166
+Northern,Nanumba North,2020,November,33026,1224
+Northern,Nanumba North,2020,December,33026,772
+Northern,Nanumba South,2015,January,19893,18
+Northern,Nanumba South,2015,February,19947,643
+Northern,Nanumba South,2015,March,19893,603
+Northern,Nanumba South,2015,April,19893,625
+Northern,Nanumba South,2015,May,19893,331
+Northern,Nanumba South,2015,June,19893,90
+Northern,Nanumba South,2015,July,19893,202
+Northern,Nanumba South,2015,August,19893,589
+Northern,Nanumba South,2015,September,19893,1401
+Northern,Nanumba South,2015,October,19893,895
+Northern,Nanumba South,2015,November,19893,405
+Northern,Nanumba South,2015,December,19893,827
+Northern,Nanumba South,2016,January,20077,575
+Northern,Nanumba South,2016,February,20077,427
+Northern,Nanumba South,2016,March,20077,399
+Northern,Nanumba South,2016,April,20077,295
+Northern,Nanumba South,2016,May,20077,334
+Northern,Nanumba South,2016,June,20077,139
+Northern,Nanumba South,2016,July,20077,78
+Northern,Nanumba South,2016,August,20077,362
+Northern,Nanumba South,2016,September,20077,381
+Northern,Nanumba South,2016,October,20077,445
+Northern,Nanumba South,2016,November,20077,329
+Northern,Nanumba South,2016,December,20077,299
+Northern,Nanumba South,2017,January,20495,720
+Northern,Nanumba South,2017,February,20551,349
+Northern,Nanumba South,2017,March,20495,232
+Northern,Nanumba South,2017,April,20495,271
+Northern,Nanumba South,2017,May,20495,407
+Northern,Nanumba South,2017,June,20495,1029
+Northern,Nanumba South,2017,July,20495,1433
+Northern,Nanumba South,2017,August,20495,1569
+Northern,Nanumba South,2017,September,20495,1639
+Northern,Nanumba South,2017,October,20495,1864
+Northern,Nanumba South,2017,November,20495,1336
+Northern,Nanumba South,2017,December,20495,844
+Northern,Nanumba South,2018,January,21063,840
+Northern,Nanumba South,2018,February,21121,678
+Northern,Nanumba South,2018,March,21063,388
+Northern,Nanumba South,2018,April,21063,383
+Northern,Nanumba South,2018,May,21063,437
+Northern,Nanumba South,2018,June,21063,1156
+Northern,Nanumba South,2018,July,21063,1431
+Northern,Nanumba South,2018,August,21063,1402
+Northern,Nanumba South,2018,September,21063,1537
+Northern,Nanumba South,2018,October,21063,1218
+Northern,Nanumba South,2018,November,21063,1216
+Northern,Nanumba South,2018,December,21063,1021
+Northern,Nanumba South,2019,January,21464,623
+Northern,Nanumba South,2019,February,21523,842
+Northern,Nanumba South,2019,March,21464,589
+Northern,Nanumba South,2019,April,21464,491
+Northern,Nanumba South,2019,May,21464,582
+Northern,Nanumba South,2019,June,21464,1076
+Northern,Nanumba South,2019,July,21464,1375
+Northern,Nanumba South,2019,August,21464,815
+Northern,Nanumba South,2019,September,21464,675
+Northern,Nanumba South,2019,October,21464,710
+Northern,Nanumba South,2019,November,21464,1086
+Northern,Nanumba South,2019,December,21464,885
+Northern,Nanumba South,2020,January,22016,657
+Northern,Nanumba South,2020,February,22016,521
+Northern,Nanumba South,2020,March,22016,245
+Northern,Nanumba South,2020,April,22016,234
+Northern,Nanumba South,2020,May,22016,441
+Northern,Nanumba South,2020,June,22016,690
+Northern,Nanumba South,2020,July,22016,737
+Northern,Nanumba South,2020,August,22016,689
+Northern,Nanumba South,2020,September,22016,653
+Northern,Nanumba South,2020,October,22016,900
+Northern,Nanumba South,2020,November,22016,952
+Northern,Nanumba South,2020,December,22016,629
+Northern,Saboba,2015,January,13985,175
+Northern,Saboba,2015,February,14023,167
+Northern,Saboba,2015,March,13985,227
+Northern,Saboba,2015,April,13985,250
+Northern,Saboba,2015,May,13985,157
+Northern,Saboba,2015,June,13985,373
+Northern,Saboba,2015,July,13985,704
+Northern,Saboba,2015,August,13985,749
+Northern,Saboba,2015,September,13985,1113
+Northern,Saboba,2015,October,13985,1226
+Northern,Saboba,2015,November,13985,591
+Northern,Saboba,2015,December,13985,353
+Northern,Saboba,2016,January,14266,232
+Northern,Saboba,2016,February,14266,214
+Northern,Saboba,2016,March,14266,130
+Northern,Saboba,2016,April,14266,128
+Northern,Saboba,2016,May,14266,111
+Northern,Saboba,2016,June,14266,311
+Northern,Saboba,2016,July,14266,816
+Northern,Saboba,2016,August,14266,808
+Northern,Saboba,2016,September,14266,904
+Northern,Saboba,2016,October,14266,780
+Northern,Saboba,2016,November,14266,654
+Northern,Saboba,2016,December,14266,502
+Northern,Saboba,2017,January,14621,442
+Northern,Saboba,2017,February,14661,271
+Northern,Saboba,2017,March,14621,305
+Northern,Saboba,2017,April,14621,246
+Northern,Saboba,2017,May,14621,388
+Northern,Saboba,2017,June,14621,1115
+Northern,Saboba,2017,July,14621,1332
+Northern,Saboba,2017,August,14621,1634
+Northern,Saboba,2017,September,14621,2112
+Northern,Saboba,2017,October,14621,1988
+Northern,Saboba,2017,November,14621,1076
+Northern,Saboba,2017,December,14621,506
+Northern,Saboba,2018,January,14900,485
+Northern,Saboba,2018,February,14941,470
+Northern,Saboba,2018,March,14900,350
+Northern,Saboba,2018,April,14900,336
+Northern,Saboba,2018,May,14900,364
+Northern,Saboba,2018,June,14900,1052
+Northern,Saboba,2018,July,14900,1129
+Northern,Saboba,2018,August,14900,1318
+Northern,Saboba,2018,September,14900,1316
+Northern,Saboba,2018,October,14900,1106
+Northern,Saboba,2018,November,14900,909
+Northern,Saboba,2018,December,14900,566
+Northern,Saboba,2019,January,15252,432
+Northern,Saboba,2019,February,15293,423
+Northern,Saboba,2019,March,15252,365
+Northern,Saboba,2019,April,15252,355
+Northern,Saboba,2019,May,15252,513
+Northern,Saboba,2019,June,15252,1163
+Northern,Saboba,2019,July,15252,1110
+Northern,Saboba,2019,August,15252,469
+Northern,Saboba,2019,September,15252,424
+Northern,Saboba,2019,October,15252,621
+Northern,Saboba,2019,November,15252,630
+Northern,Saboba,2019,December,15252,619
+Northern,Saboba,2020,January,15644,483
+Northern,Saboba,2020,February,15644,437
+Northern,Saboba,2020,March,15644,373
+Northern,Saboba,2020,April,15644,305
+Northern,Saboba,2020,May,15644,349
+Northern,Saboba,2020,June,15644,331
+Northern,Saboba,2020,July,15644,375
+Northern,Saboba,2020,August,15644,287
+Northern,Saboba,2020,September,15644,469
+Northern,Saboba,2020,October,15644,720
+Northern,Saboba,2020,November,15644,926
+Northern,Saboba,2020,December,15644,664
+Northern,Sagnarigu,2015,January,31522,262
+Northern,Sagnarigu,2015,February,31608,212
+Northern,Sagnarigu,2015,March,31522,219
+Northern,Sagnarigu,2015,April,31522,215
+Northern,Sagnarigu,2015,May,31522,178
+Northern,Sagnarigu,2015,June,31522,200
+Northern,Sagnarigu,2015,July,31522,310
+Northern,Sagnarigu,2015,August,31522,456
+Northern,Sagnarigu,2015,September,31522,468
+Northern,Sagnarigu,2015,October,31522,427
+Northern,Sagnarigu,2015,November,31522,320
+Northern,Sagnarigu,2015,December,31522,214
+Northern,Sagnarigu,2016,January,31162,233
+Northern,Sagnarigu,2016,February,31162,198
+Northern,Sagnarigu,2016,March,31162,254
+Northern,Sagnarigu,2016,April,31162,230
+Northern,Sagnarigu,2016,May,31162,225
+Northern,Sagnarigu,2016,June,31162,295
+Northern,Sagnarigu,2016,July,31162,352
+Northern,Sagnarigu,2016,August,31162,266
+Northern,Sagnarigu,2016,September,31162,256
+Northern,Sagnarigu,2016,October,31162,299
+Northern,Sagnarigu,2016,November,31162,308
+Northern,Sagnarigu,2016,December,31162,156
+Northern,Sagnarigu,2017,January,31714,196
+Northern,Sagnarigu,2017,February,31801,206
+Northern,Sagnarigu,2017,March,31714,149
+Northern,Sagnarigu,2017,April,31714,180
+Northern,Sagnarigu,2017,May,31714,200
+Northern,Sagnarigu,2017,June,31714,381
+Northern,Sagnarigu,2017,July,31714,546
+Northern,Sagnarigu,2017,August,31714,544
+Northern,Sagnarigu,2017,September,31714,501
+Northern,Sagnarigu,2017,October,31714,420
+Northern,Sagnarigu,2017,November,31714,374
+Northern,Sagnarigu,2017,December,31714,439
+Northern,Sagnarigu,2018,January,32346,468
+Northern,Sagnarigu,2018,February,32434,493
+Northern,Sagnarigu,2018,March,32346,350
+Northern,Sagnarigu,2018,April,32346,256
+Northern,Sagnarigu,2018,May,32346,314
+Northern,Sagnarigu,2018,June,32346,380
+Northern,Sagnarigu,2018,July,32346,344
+Northern,Sagnarigu,2018,August,32346,259
+Northern,Sagnarigu,2018,September,32346,420
+Northern,Sagnarigu,2018,October,32346,512
+Northern,Sagnarigu,2018,November,32346,456
+Northern,Sagnarigu,2018,December,32346,351
+Northern,Sagnarigu,2019,January,32992,624
+Northern,Sagnarigu,2019,February,33083,563
+Northern,Sagnarigu,2019,March,32992,464
+Northern,Sagnarigu,2019,April,32992,471
+Northern,Sagnarigu,2019,May,32992,480
+Northern,Sagnarigu,2019,June,32992,447
+Northern,Sagnarigu,2019,July,32992,755
+Northern,Sagnarigu,2019,August,32992,601
+Northern,Sagnarigu,2019,September,32992,438
+Northern,Sagnarigu,2019,October,32992,632
+Northern,Sagnarigu,2019,November,32992,496
+Northern,Sagnarigu,2019,December,32992,382
+Northern,Sagnarigu,2020,January,35443,661
+Northern,Sagnarigu,2020,February,35443,579
+Northern,Sagnarigu,2020,March,35443,463
+Northern,Sagnarigu,2020,April,35443,307
+Northern,Sagnarigu,2020,May,35443,460
+Northern,Sagnarigu,2020,June,35443,324
+Northern,Sagnarigu,2020,July,35443,408
+Northern,Sagnarigu,2020,August,35443,402
+Northern,Sagnarigu,2020,September,35443,514
+Northern,Sagnarigu,2020,October,35443,787
+Northern,Sagnarigu,2020,November,35443,772
+Northern,Sagnarigu,2020,December,35443,679
+Northern,Savelugu,2015,January,18985,2
+Northern,Savelugu,2015,February,19037,83
+Northern,Savelugu,2015,March,18985,98
+Northern,Savelugu,2015,April,18985,89
+Northern,Savelugu,2015,May,18985,85
+Northern,Savelugu,2015,June,18985,131
+Northern,Savelugu,2015,July,18985,294
+Northern,Savelugu,2015,August,18985,594
+Northern,Savelugu,2015,September,18985,550
+Northern,Savelugu,2015,October,18985,848
+Northern,Savelugu,2015,November,18985,477
+Northern,Savelugu,2015,December,18985,373
+Northern,Savelugu,2016,January,18947,168
+Northern,Savelugu,2016,February,18947,122
+Northern,Savelugu,2016,March,18947,131
+Northern,Savelugu,2016,April,18947,138
+Northern,Savelugu,2016,May,18947,94
+Northern,Savelugu,2016,June,18947,240
+Northern,Savelugu,2016,July,18947,381
+Northern,Savelugu,2016,August,18947,538
+Northern,Savelugu,2016,September,18947,594
+Northern,Savelugu,2016,October,18947,588
+Northern,Savelugu,2016,November,18947,455
+Northern,Savelugu,2016,December,18947,339
+Northern,Savelugu,2017,January,19340,369
+Northern,Savelugu,2017,February,19393,193
+Northern,Savelugu,2017,March,19340,131
+Northern,Savelugu,2017,April,19340,130
+Northern,Savelugu,2017,May,19340,132
+Northern,Savelugu,2017,June,19340,507
+Northern,Savelugu,2017,July,19340,821
+Northern,Savelugu,2017,August,19340,1086
+Northern,Savelugu,2017,September,19340,819
+Northern,Savelugu,2017,October,19340,848
+Northern,Savelugu,2017,November,19340,723
+Northern,Savelugu,2017,December,19340,652
+Northern,Savelugu,2018,January,19635,412
+Northern,Savelugu,2018,February,19688,312
+Northern,Savelugu,2018,March,19635,115
+Northern,Savelugu,2018,April,19635,117
+Northern,Savelugu,2018,May,19635,168
+Northern,Savelugu,2018,June,19635,265
+Northern,Savelugu,2018,July,19635,319
+Northern,Savelugu,2018,August,19635,443
+Northern,Savelugu,2018,September,19635,400
+Northern,Savelugu,2018,October,19635,494
+Northern,Savelugu,2018,November,19635,369
+Northern,Savelugu,2018,December,19635,196
+Northern,Savelugu,2019,January,20260,272
+Northern,Savelugu,2019,February,20315,107
+Northern,Savelugu,2019,March,20260,88
+Northern,Savelugu,2019,April,20260,86
+Northern,Savelugu,2019,May,20260,103
+Northern,Savelugu,2019,June,20260,210
+Northern,Savelugu,2019,July,20260,332
+Northern,Savelugu,2019,August,20260,457
+Northern,Savelugu,2019,September,20260,452
+Northern,Savelugu,2019,October,20260,316
+Northern,Savelugu,2019,November,20260,338
+Northern,Savelugu,2019,December,20260,113
+Northern,Savelugu,2020,January,20780,60
+Northern,Savelugu,2020,February,20780,49
+Northern,Savelugu,2020,March,20780,56
+Northern,Savelugu,2020,April,20780,36
+Northern,Savelugu,2020,May,20780,60
+Northern,Savelugu,2020,June,20780,53
+Northern,Savelugu,2020,July,20780,99
+Northern,Savelugu,2020,August,20780,125
+Northern,Savelugu,2020,September,20780,219
+Northern,Savelugu,2020,October,20780,294
+Northern,Savelugu,2020,November,20780,363
+Northern,Savelugu,2020,December,20780,196
+Northern,Tamale,2015,January,47518,146
+Northern,Tamale,2015,February,47648,179
+Northern,Tamale,2015,March,47518,172
+Northern,Tamale,2015,April,47518,334
+Northern,Tamale,2015,May,47518,244
+Northern,Tamale,2015,June,47518,226
+Northern,Tamale,2015,July,47518,320
+Northern,Tamale,2015,August,47518,383
+Northern,Tamale,2015,September,47518,352
+Northern,Tamale,2015,October,47518,419
+Northern,Tamale,2015,November,47518,341
+Northern,Tamale,2015,December,47518,356
+Northern,Tamale,2016,January,47552,248
+Northern,Tamale,2016,February,47552,184
+Northern,Tamale,2016,March,47552,212
+Northern,Tamale,2016,April,47552,180
+Northern,Tamale,2016,May,47552,174
+Northern,Tamale,2016,June,47552,676
+Northern,Tamale,2016,July,47552,818
+Northern,Tamale,2016,August,47552,829
+Northern,Tamale,2016,September,47552,365
+Northern,Tamale,2016,October,47552,347
+Northern,Tamale,2016,November,47552,236
+Northern,Tamale,2016,December,47552,367
+Northern,Tamale,2017,January,48537,303
+Northern,Tamale,2017,February,48670,236
+Northern,Tamale,2017,March,48537,182
+Northern,Tamale,2017,April,48537,181
+Northern,Tamale,2017,May,48537,215
+Northern,Tamale,2017,June,48537,259
+Northern,Tamale,2017,July,48537,274
+Northern,Tamale,2017,August,48537,229
+Northern,Tamale,2017,September,48537,332
+Northern,Tamale,2017,October,48537,619
+Northern,Tamale,2017,November,48537,434
+Northern,Tamale,2017,December,48537,367
+Northern,Tamale,2018,January,49671,362
+Northern,Tamale,2018,February,49807,404
+Northern,Tamale,2018,March,49671,346
+Northern,Tamale,2018,April,49671,313
+Northern,Tamale,2018,May,49671,322
+Northern,Tamale,2018,June,49671,306
+Northern,Tamale,2018,July,49671,457
+Northern,Tamale,2018,August,49671,435
+Northern,Tamale,2018,September,49671,544
+Northern,Tamale,2018,October,49671,458
+Northern,Tamale,2018,November,49671,394
+Northern,Tamale,2018,December,49671,347
+Northern,Tamale,2019,January,50837,484
+Northern,Tamale,2019,February,50976,446
+Northern,Tamale,2019,March,50837,573
+Northern,Tamale,2019,April,50837,447
+Northern,Tamale,2019,May,50837,418
+Northern,Tamale,2019,June,50837,533
+Northern,Tamale,2019,July,50837,741
+Northern,Tamale,2019,August,50837,346
+Northern,Tamale,2019,September,50837,346
+Northern,Tamale,2019,October,50837,776
+Northern,Tamale,2019,November,50837,734
+Northern,Tamale,2019,December,50837,500
+Northern,Tamale,2020,January,52144,479
+Northern,Tamale,2020,February,52144,760
+Northern,Tamale,2020,March,52144,669
+Northern,Tamale,2020,April,52144,387
+Northern,Tamale,2020,May,52144,376
+Northern,Tamale,2020,June,52144,296
+Northern,Tamale,2020,July,52144,336
+Northern,Tamale,2020,August,52144,643
+Northern,Tamale,2020,September,52144,454
+Northern,Tamale,2020,October,52144,872
+Northern,Tamale,2020,November,52144,863
+Northern,Tamale,2020,December,52144,909
+Northern,Tatale-Sangule,2015,January,12638,196
+Northern,Tatale-Sangule,2015,February,12672,188
+Northern,Tatale-Sangule,2015,March,12638,187
+Northern,Tatale-Sangule,2015,April,12638,185
+Northern,Tatale-Sangule,2015,May,12638,224
+Northern,Tatale-Sangule,2015,June,12638,351
+Northern,Tatale-Sangule,2015,July,12638,602
+Northern,Tatale-Sangule,2015,August,12638,881
+Northern,Tatale-Sangule,2015,September,12638,1029
+Northern,Tatale-Sangule,2015,October,12638,897
+Northern,Tatale-Sangule,2015,November,12638,769
+Northern,Tatale-Sangule,2015,December,12638,576
+Northern,Tatale-Sangule,2016,January,13040,397
+Northern,Tatale-Sangule,2016,February,13040,365
+Northern,Tatale-Sangule,2016,March,13040,239
+Northern,Tatale-Sangule,2016,April,13040,202
+Northern,Tatale-Sangule,2016,May,13040,384
+Northern,Tatale-Sangule,2016,June,13040,573
+Northern,Tatale-Sangule,2016,July,13040,528
+Northern,Tatale-Sangule,2016,August,13040,759
+Northern,Tatale-Sangule,2016,September,13040,820
+Northern,Tatale-Sangule,2016,October,13040,612
+Northern,Tatale-Sangule,2016,November,13040,569
+Northern,Tatale-Sangule,2016,December,13040,248
+Northern,Tatale-Sangule,2017,January,13381,365
+Northern,Tatale-Sangule,2017,February,13418,230
+Northern,Tatale-Sangule,2017,March,13381,188
+Northern,Tatale-Sangule,2017,April,13381,133
+Northern,Tatale-Sangule,2017,May,13381,255
+Northern,Tatale-Sangule,2017,June,13381,556
+Northern,Tatale-Sangule,2017,July,13381,609
+Northern,Tatale-Sangule,2017,August,13381,575
+Northern,Tatale-Sangule,2017,September,13381,743
+Northern,Tatale-Sangule,2017,October,13381,793
+Northern,Tatale-Sangule,2017,November,13381,554
+Northern,Tatale-Sangule,2017,December,13381,385
+Northern,Tatale-Sangule,2018,January,13245,267
+Northern,Tatale-Sangule,2018,February,13281,151
+Northern,Tatale-Sangule,2018,March,13245,159
+Northern,Tatale-Sangule,2018,April,13245,149
+Northern,Tatale-Sangule,2018,May,13245,173
+Northern,Tatale-Sangule,2018,June,13245,442
+Northern,Tatale-Sangule,2018,July,13245,669
+Northern,Tatale-Sangule,2018,August,13245,625
+Northern,Tatale-Sangule,2018,September,13245,601
+Northern,Tatale-Sangule,2018,October,13245,529
+Northern,Tatale-Sangule,2018,November,13245,350
+Northern,Tatale-Sangule,2018,December,13245,385
+Northern,Tatale-Sangule,2019,January,13558,334
+Northern,Tatale-Sangule,2019,February,13595,257
+Northern,Tatale-Sangule,2019,March,13558,264
+Northern,Tatale-Sangule,2019,April,13558,199
+Northern,Tatale-Sangule,2019,May,13558,300
+Northern,Tatale-Sangule,2019,June,13558,557
+Northern,Tatale-Sangule,2019,July,13558,621
+Northern,Tatale-Sangule,2019,August,13558,596
+Northern,Tatale-Sangule,2019,September,13558,560
+Northern,Tatale-Sangule,2019,October,13558,446
+Northern,Tatale-Sangule,2019,November,13558,523
+Northern,Tatale-Sangule,2019,December,13558,557
+Northern,Tatale-Sangule,2020,January,13906,327
+Northern,Tatale-Sangule,2020,February,13906,226
+Northern,Tatale-Sangule,2020,March,13906,171
+Northern,Tatale-Sangule,2020,April,13906,108
+Northern,Tatale-Sangule,2020,May,13906,180
+Northern,Tatale-Sangule,2020,June,13906,450
+Northern,Tatale-Sangule,2020,July,13906,521
+Northern,Tatale-Sangule,2020,August,13906,327
+Northern,Tatale-Sangule,2020,September,13906,380
+Northern,Tatale-Sangule,2020,October,13906,641
+Northern,Tatale-Sangule,2020,November,13906,790
+Northern,Tatale-Sangule,2020,December,13906,497
+Northern,Tolon,2015,January,9999,96
+Northern,Tolon,2015,February,10026,139
+Northern,Tolon,2015,March,9999,157
+Northern,Tolon,2015,April,9999,171
+Northern,Tolon,2015,May,9999,154
+Northern,Tolon,2015,June,9999,168
+Northern,Tolon,2015,July,9999,429
+Northern,Tolon,2015,August,9999,1067
+Northern,Tolon,2015,September,9999,1034
+Northern,Tolon,2015,October,9999,887
+Northern,Tolon,2015,November,9999,876
+Northern,Tolon,2015,December,9999,658
+Northern,Tolon,2016,January,15323,453
+Northern,Tolon,2016,February,15323,326
+Northern,Tolon,2016,March,15323,230
+Northern,Tolon,2016,April,15323,292
+Northern,Tolon,2016,May,15323,256
+Northern,Tolon,2016,June,15323,440
+Northern,Tolon,2016,July,15323,961
+Northern,Tolon,2016,August,15323,1100
+Northern,Tolon,2016,September,15323,1172
+Northern,Tolon,2016,October,15323,1172
+Northern,Tolon,2016,November,15323,580
+Northern,Tolon,2016,December,15323,465
+Northern,Tolon,2017,January,15639,587
+Northern,Tolon,2017,February,15682,411
+Northern,Tolon,2017,March,15639,262
+Northern,Tolon,2017,April,15639,393
+Northern,Tolon,2017,May,15639,379
+Northern,Tolon,2017,June,15639,450
+Northern,Tolon,2017,July,15639,1154
+Northern,Tolon,2017,August,15639,1565
+Northern,Tolon,2017,September,15639,1323
+Northern,Tolon,2017,October,15639,858
+Northern,Tolon,2017,November,15639,661
+Northern,Tolon,2017,December,15639,501
+Northern,Tolon,2018,January,16002,588
+Northern,Tolon,2018,February,16046,661
+Northern,Tolon,2018,March,16002,343
+Northern,Tolon,2018,April,16002,344
+Northern,Tolon,2018,May,16002,371
+Northern,Tolon,2018,June,16002,765
+Northern,Tolon,2018,July,16002,916
+Northern,Tolon,2018,August,16002,901
+Northern,Tolon,2018,September,16002,1085
+Northern,Tolon,2018,October,16002,1347
+Northern,Tolon,2018,November,16002,872
+Northern,Tolon,2018,December,16002,540
+Northern,Tolon,2019,January,16381,529
+Northern,Tolon,2019,February,16426,405
+Northern,Tolon,2019,March,16381,395
+Northern,Tolon,2019,April,16381,372
+Northern,Tolon,2019,May,16381,469
+Northern,Tolon,2019,June,16381,550
+Northern,Tolon,2019,July,16381,661
+Northern,Tolon,2019,August,16381,415
+Northern,Tolon,2019,September,16381,493
+Northern,Tolon,2019,October,16381,589
+Northern,Tolon,2019,November,16381,648
+Northern,Tolon,2019,December,16381,447
+Northern,Tolon,2020,January,16803,418
+Northern,Tolon,2020,February,16803,344
+Northern,Tolon,2020,March,16803,358
+Northern,Tolon,2020,April,16803,251
+Northern,Tolon,2020,May,16803,314
+Northern,Tolon,2020,June,16803,303
+Northern,Tolon,2020,July,16803,307
+Northern,Tolon,2020,August,16803,360
+Northern,Tolon,2020,September,16803,456
+Northern,Tolon,2020,October,16803,781
+Northern,Tolon,2020,November,16803,744
+Northern,Tolon,2020,December,16803,412
+Northern,Yendi,2015,January,25171,79
+Northern,Yendi,2015,February,25240,363
+Northern,Yendi,2015,March,25171,295
+Northern,Yendi,2015,April,25171,356
+Northern,Yendi,2015,May,25171,334
+Northern,Yendi,2015,June,25171,292
+Northern,Yendi,2015,July,25171,221
+Northern,Yendi,2015,August,25171,335
+Northern,Yendi,2015,September,25171,841
+Northern,Yendi,2015,October,25171,1034
+Northern,Yendi,2015,November,25171,888
+Northern,Yendi,2015,December,25171,640
+Northern,Yendi,2016,January,25364,405
+Northern,Yendi,2016,February,25364,352
+Northern,Yendi,2016,March,25364,329
+Northern,Yendi,2016,April,25364,324
+Northern,Yendi,2016,May,25364,328
+Northern,Yendi,2016,June,25364,325
+Northern,Yendi,2016,July,25364,1221
+Northern,Yendi,2016,August,25364,1239
+Northern,Yendi,2016,September,25364,1421
+Northern,Yendi,2016,October,25364,931
+Northern,Yendi,2016,November,25364,781
+Northern,Yendi,2016,December,25364,491
+Northern,Yendi,2017,January,25885,567
+Northern,Yendi,2017,February,25956,410
+Northern,Yendi,2017,March,25885,1079
+Northern,Yendi,2017,April,25885,224
+Northern,Yendi,2017,May,25885,280
+Northern,Yendi,2017,June,25885,765
+Northern,Yendi,2017,July,25885,1448
+Northern,Yendi,2017,August,25885,1893
+Northern,Yendi,2017,September,25885,1905
+Northern,Yendi,2017,October,25885,1677
+Northern,Yendi,2017,November,25885,1159
+Northern,Yendi,2017,December,25885,913
+Northern,Yendi,2018,January,26489,578
+Northern,Yendi,2018,February,26562,318
+Northern,Yendi,2018,March,26489,206
+Northern,Yendi,2018,April,26489,130
+Northern,Yendi,2018,May,26489,192
+Northern,Yendi,2018,June,26489,822
+Northern,Yendi,2018,July,26489,868
+Northern,Yendi,2018,August,26489,786
+Northern,Yendi,2018,September,26489,853
+Northern,Yendi,2018,October,26489,700
+Northern,Yendi,2018,November,26489,673
+Northern,Yendi,2018,December,26489,410
+Northern,Yendi,2019,January,33967,428
+Northern,Yendi,2019,February,34060,269
+Northern,Yendi,2019,March,33967,278
+Northern,Yendi,2019,April,33967,351
+Northern,Yendi,2019,May,33967,339
+Northern,Yendi,2019,June,33967,741
+Northern,Yendi,2019,July,33967,745
+Northern,Yendi,2019,August,33967,481
+Northern,Yendi,2019,September,33967,589
+Northern,Yendi,2019,October,33967,833
+Northern,Yendi,2019,November,33967,763
+Northern,Yendi,2019,December,33967,468
+Northern,Yendi,2020,January,27810,334
+Northern,Yendi,2020,February,27810,217
+Northern,Yendi,2020,March,27810,167
+Northern,Yendi,2020,April,27810,167
+Northern,Yendi,2020,May,27810,195
+Northern,Yendi,2020,June,27810,387
+Northern,Yendi,2020,July,27810,525
+Northern,Yendi,2020,August,27810,523
+Northern,Yendi,2020,September,27810,523
+Northern,Yendi,2020,October,27810,994
+Northern,Yendi,2020,November,27810,1005
+Northern,Yendi,2020,December,27810,480
+Northern,Zabzugu,2015,January,13724,195
+Northern,Zabzugu,2015,February,13762,187
+Northern,Zabzugu,2015,March,13724,231
+Northern,Zabzugu,2015,April,13724,235
+Northern,Zabzugu,2015,May,13724,274
+Northern,Zabzugu,2015,June,13724,465
+Northern,Zabzugu,2015,July,13724,416
+Northern,Zabzugu,2015,August,13724,519
+Northern,Zabzugu,2015,September,13724,555
+Northern,Zabzugu,2015,October,13724,428
+Northern,Zabzugu,2015,November,13724,386
+Northern,Zabzugu,2015,December,13724,310
+Northern,Zabzugu,2016,January,13739,314
+Northern,Zabzugu,2016,February,13739,317
+Northern,Zabzugu,2016,March,13739,124
+Northern,Zabzugu,2016,April,13739,118
+Northern,Zabzugu,2016,May,13739,340
+Northern,Zabzugu,2016,June,13739,340
+Northern,Zabzugu,2016,July,13739,331
+Northern,Zabzugu,2016,August,13739,393
+Northern,Zabzugu,2016,September,13739,692
+Northern,Zabzugu,2016,October,13739,1029
+Northern,Zabzugu,2016,November,13739,721
+Northern,Zabzugu,2016,December,13739,423
+Northern,Zabzugu,2017,January,14021,459
+Northern,Zabzugu,2017,February,14059,208
+Northern,Zabzugu,2017,March,14021,100
+Northern,Zabzugu,2017,April,14021,106
+Northern,Zabzugu,2017,May,14021,76
+Northern,Zabzugu,2017,June,14021,222
+Northern,Zabzugu,2017,July,14021,328
+Northern,Zabzugu,2017,August,14021,410
+Northern,Zabzugu,2017,September,14021,695
+Northern,Zabzugu,2017,October,14021,476
+Northern,Zabzugu,2017,November,14021,249
+Northern,Zabzugu,2017,December,14021,504
+Northern,Zabzugu,2018,January,14349,284
+Northern,Zabzugu,2018,February,14389,268
+Northern,Zabzugu,2018,March,14349,85
+Northern,Zabzugu,2018,April,14349,206
+Northern,Zabzugu,2018,May,14349,232
+Northern,Zabzugu,2018,June,14349,397
+Northern,Zabzugu,2018,July,14349,420
+Northern,Zabzugu,2018,August,14349,333
+Northern,Zabzugu,2018,September,14349,375
+Northern,Zabzugu,2018,October,14349,644
+Northern,Zabzugu,2018,November,14349,345
+Northern,Zabzugu,2018,December,14349,173
+Northern,Zabzugu,2019,January,14687,132
+Northern,Zabzugu,2019,February,14727,73
+Northern,Zabzugu,2019,March,14687,72
+Northern,Zabzugu,2019,April,14687,39
+Northern,Zabzugu,2019,May,14687,63
+Northern,Zabzugu,2019,June,14687,392
+Northern,Zabzugu,2019,July,14687,394
+Northern,Zabzugu,2019,August,14687,62
+Northern,Zabzugu,2019,September,14687,187
+Northern,Zabzugu,2019,October,14687,260
+Northern,Zabzugu,2019,November,14687,354
+Northern,Zabzugu,2019,December,14687,313
+Northern,Zabzugu,2020,January,15065,222
+Northern,Zabzugu,2020,February,15065,201
+Northern,Zabzugu,2020,March,15065,173
+Northern,Zabzugu,2020,April,15065,109
+Northern,Zabzugu,2020,May,15065,170
+Northern,Zabzugu,2020,June,15065,402
+Northern,Zabzugu,2020,July,15065,374
+Northern,Zabzugu,2020,August,15065,305
+Northern,Zabzugu,2020,September,15065,355
+Northern,Zabzugu,2020,October,15065,534
+Northern,Zabzugu,2020,November,15065,642
+Northern,Zabzugu,2020,December,15065,358
+Northern,Gushiegu,2021,January,28484,449
+Northern,Gushiegu,2021,February,28484,410
+Northern,Gushiegu,2021,March,28484,242
+Northern,Gushiegu,2021,April,28484,312
+Northern,Gushiegu,2021,May,28484,263
+Northern,Gushiegu,2021,June,28484,532
+Northern,Gushiegu,2021,July,28484,813
+Northern,Gushiegu,2021,August,28484,867
+Northern,Gushiegu,2021,September,28484,854
+Northern,Gushiegu,2021,October,28484,959
+Northern,Gushiegu,2021,November,28484,781
+Northern,Gushiegu,2021,December,28484,659
+Northern,Gushiegu,2022,January,29082,282
+Northern,Gushiegu,2022,February,29082,223
+Northern,Gushiegu,2022,March,29082,159
+Northern,Gushiegu,2022,April,29082,182
+Northern,Gushiegu,2022,May,29082,369
+Northern,Gushiegu,2022,June,29082,688
+Northern,Gushiegu,2022,July,29082,775
+Northern,Gushiegu,2022,August,29082,729
+Northern,Gushiegu,2022,September,29082,817
+Northern,Gushiegu,2022,October,29082,926
+Northern,Gushiegu,2022,November,29082,642
+Northern,Gushiegu,2022,December,29082,516
+Northern,Gushiegu,2023,January,29692,240
+Northern,Gushiegu,2023,February,29692,157
+Northern,Gushiegu,2023,March,29692,209
+Northern,Gushiegu,2023,April,29692,195
+Northern,Gushiegu,2023,May,29692,236
+Northern,Gushiegu,2023,June,29692,314
+Northern,Gushiegu,2023,July,29692,500
+Northern,Gushiegu,2023,August,29692,553
+Northern,Gushiegu,2023,September,29692,580
+Northern,Gushiegu,2023,October,29692,569
+Northern,Gushiegu,2023,November,29692,474
+Northern,Gushiegu,2023,December,29692,340
+Northern,Gushiegu,2024,January,31898,379
+Northern,Gushiegu,2024,February,31811,265
+Northern,Gushiegu,2024,March,31898,229
+Northern,Gushiegu,2024,April,31898,118
+Northern,Gushiegu,2024,May,31898,274
+Northern,Gushiegu,2024,June,31898,276
+Northern,Gushiegu,2024,July,31898,632
+Northern,Gushiegu,2024,August,31898,667
+Northern,Gushiegu,2024,September,31898,719
+Northern,Gushiegu,2024,October,31898,973
+Northern,Gushiegu,2024,November,31898,547
+Northern,Gushiegu,2024,December,31898,430
+Northern,Gushiegu,2025,January,32935,179
+Northern,Gushiegu,2025,February,32935,117
+Northern,Gushiegu,2025,March,32935,119
+Northern,Gushiegu,2025,April,32935,115
+Northern,Gushiegu,2025,May,32935,127
+Northern,Gushiegu,2025,June,32935,213
+Northern,Gushiegu,2025,July,32935,278
+Northern,Gushiegu,2025,August,32935,285
+Northern,Gushiegu,2025,September,32935,339
+Northern,Gushiegu,2025,October,32935,432
+Northern,Gushiegu,2025,November,32935,382
+Northern,Gushiegu,2025,December,32935,191
+Northern,Karaga,2021,January,21132,350
+Northern,Karaga,2021,February,21132,259
+Northern,Karaga,2021,March,21132,181
+Northern,Karaga,2021,April,21132,168
+Northern,Karaga,2021,May,21132,152
+Northern,Karaga,2021,June,21132,319
+Northern,Karaga,2021,July,21132,781
+Northern,Karaga,2021,August,21132,584
+Northern,Karaga,2021,September,21132,647
+Northern,Karaga,2021,October,21132,1250
+Northern,Karaga,2021,November,21132,952
+Northern,Karaga,2021,December,21132,787
+Northern,Karaga,2022,January,21575,378
+Northern,Karaga,2022,February,21575,211
+Northern,Karaga,2022,March,21575,176
+Northern,Karaga,2022,April,21575,142
+Northern,Karaga,2022,May,21575,241
+Northern,Karaga,2022,June,21575,483
+Northern,Karaga,2022,July,21575,711
+Northern,Karaga,2022,August,21575,801
+Northern,Karaga,2022,September,21575,883
+Northern,Karaga,2022,October,21575,1037
+Northern,Karaga,2022,November,21575,842
+Northern,Karaga,2022,December,21575,389
+Northern,Karaga,2023,January,22028,274
+Northern,Karaga,2023,February,22028,148
+Northern,Karaga,2023,March,22028,130
+Northern,Karaga,2023,April,22028,159
+Northern,Karaga,2023,May,22028,186
+Northern,Karaga,2023,June,22028,303
+Northern,Karaga,2023,July,22028,578
+Northern,Karaga,2023,August,22028,583
+Northern,Karaga,2023,September,22028,615
+Northern,Karaga,2023,October,22028,1086
+Northern,Karaga,2023,November,22028,847
+Northern,Karaga,2023,December,22028,367
+Northern,Karaga,2024,January,23665,298
+Northern,Karaga,2024,February,23600,184
+Northern,Karaga,2024,March,23665,181
+Northern,Karaga,2024,April,23665,157
+Northern,Karaga,2024,May,23665,177
+Northern,Karaga,2024,June,23665,268
+Northern,Karaga,2024,July,23665,424
+Northern,Karaga,2024,August,23665,652
+Northern,Karaga,2024,September,23665,802
+Northern,Karaga,2024,October,23665,959
+Northern,Karaga,2024,November,23665,885
+Northern,Karaga,2024,December,23665,365
+Northern,Karaga,2025,January,24434,248
+Northern,Karaga,2025,February,24434,156
+Northern,Karaga,2025,March,24434,156
+Northern,Karaga,2025,April,24434,152
+Northern,Karaga,2025,May,24434,172
+Northern,Karaga,2025,June,24434,215
+Northern,Karaga,2025,July,24434,352
+Northern,Karaga,2025,August,24434,480
+Northern,Karaga,2025,September,24434,617
+Northern,Karaga,2025,October,24434,680
+Northern,Karaga,2025,November,24434,517
+Northern,Karaga,2025,December,24434,208
+Northern,Kpandai,2021,January,23349,651
+Northern,Kpandai,2021,February,23349,627
+Northern,Kpandai,2021,March,23349,504
+Northern,Kpandai,2021,April,23349,478
+Northern,Kpandai,2021,May,23349,439
+Northern,Kpandai,2021,June,23349,502
+Northern,Kpandai,2021,July,23349,616
+Northern,Kpandai,2021,August,23349,722
+Northern,Kpandai,2021,September,23349,1111
+Northern,Kpandai,2021,October,23349,1265
+Northern,Kpandai,2021,November,23349,1088
+Northern,Kpandai,2021,December,23349,879
+Northern,Kpandai,2022,January,23840,790
+Northern,Kpandai,2022,February,23840,818
+Northern,Kpandai,2022,March,23840,589
+Northern,Kpandai,2022,April,23840,591
+Northern,Kpandai,2022,May,23840,728
+Northern,Kpandai,2022,June,23840,873
+Northern,Kpandai,2022,July,23840,828
+Northern,Kpandai,2022,August,23840,940
+Northern,Kpandai,2022,September,23840,947
+Northern,Kpandai,2022,October,23840,1328
+Northern,Kpandai,2022,November,23840,1066
+Northern,Kpandai,2022,December,23840,682
+Northern,Kpandai,2023,January,24340,596
+Northern,Kpandai,2023,February,24340,574
+Northern,Kpandai,2023,March,24340,421
+Northern,Kpandai,2023,April,24340,461
+Northern,Kpandai,2023,May,24340,520
+Northern,Kpandai,2023,June,24340,600
+Northern,Kpandai,2023,July,24340,672
+Northern,Kpandai,2023,August,24340,837
+Northern,Kpandai,2023,September,24340,758
+Northern,Kpandai,2023,October,24340,816
+Northern,Kpandai,2023,November,24340,752
+Northern,Kpandai,2023,December,24340,590
+Northern,Kpandai,2024,January,26148,601
+Northern,Kpandai,2024,February,26077,514
+Northern,Kpandai,2024,March,26148,399
+Northern,Kpandai,2024,April,26148,466
+Northern,Kpandai,2024,May,26148,462
+Northern,Kpandai,2024,June,26148,451
+Northern,Kpandai,2024,July,26148,457
+Northern,Kpandai,2024,August,26148,643
+Northern,Kpandai,2024,September,26148,715
+Northern,Kpandai,2024,October,26148,799
+Northern,Kpandai,2024,November,26148,617
+Northern,Kpandai,2024,December,26148,400
+Northern,Kpandai,2025,January,26998,374
+Northern,Kpandai,2025,February,26998,453
+Northern,Kpandai,2025,March,26998,418
+Northern,Kpandai,2025,April,26998,416
+Northern,Kpandai,2025,May,26998,372
+Northern,Kpandai,2025,June,26998,435
+Northern,Kpandai,2025,July,26998,438
+Northern,Kpandai,2025,August,26998,524
+Northern,Kpandai,2025,September,26998,668
+Northern,Kpandai,2025,October,26998,712
+Northern,Kpandai,2025,November,26998,462
+Northern,Kpandai,2025,December,26998,323
+Northern,Kumbungu,2021,January,20458,105
+Northern,Kumbungu,2021,February,20458,83
+Northern,Kumbungu,2021,March,20458,80
+Northern,Kumbungu,2021,April,20458,107
+Northern,Kumbungu,2021,May,20458,91
+Northern,Kumbungu,2021,June,20458,137
+Northern,Kumbungu,2021,July,20458,424
+Northern,Kumbungu,2021,August,20458,364
+Northern,Kumbungu,2021,September,20458,198
+Northern,Kumbungu,2021,October,20458,321
+Northern,Kumbungu,2021,November,20458,297
+Northern,Kumbungu,2021,December,20458,193
+Northern,Kumbungu,2022,January,20888,193
+Northern,Kumbungu,2022,February,20888,133
+Northern,Kumbungu,2022,March,20888,112
+Northern,Kumbungu,2022,April,20888,94
+Northern,Kumbungu,2022,May,20888,170
+Northern,Kumbungu,2022,June,20888,279
+Northern,Kumbungu,2022,July,20888,260
+Northern,Kumbungu,2022,August,20888,307
+Northern,Kumbungu,2022,September,20888,384
+Northern,Kumbungu,2022,October,20888,554
+Northern,Kumbungu,2022,November,20888,380
+Northern,Kumbungu,2022,December,20888,208
+Northern,Kumbungu,2023,January,21327,150
+Northern,Kumbungu,2023,February,21327,114
+Northern,Kumbungu,2023,March,21327,107
+Northern,Kumbungu,2023,April,21327,73
+Northern,Kumbungu,2023,May,21327,132
+Northern,Kumbungu,2023,June,21327,190
+Northern,Kumbungu,2023,July,21327,347
+Northern,Kumbungu,2023,August,21327,351
+Northern,Kumbungu,2023,September,21327,405
+Northern,Kumbungu,2023,October,21327,388
+Northern,Kumbungu,2023,November,21327,379
+Northern,Kumbungu,2023,December,21327,218
+Northern,Kumbungu,2024,January,22911,200
+Northern,Kumbungu,2024,February,22848,137
+Northern,Kumbungu,2024,March,22911,124
+Northern,Kumbungu,2024,April,22911,103
+Northern,Kumbungu,2024,May,22911,173
+Northern,Kumbungu,2024,June,22911,195
+Northern,Kumbungu,2024,July,22911,371
+Northern,Kumbungu,2024,August,22911,401
+Northern,Kumbungu,2024,September,22911,338
+Northern,Kumbungu,2024,October,22911,344
+Northern,Kumbungu,2024,November,22911,298
+Northern,Kumbungu,2024,December,22911,189
+Northern,Kumbungu,2025,January,23655,184
+Northern,Kumbungu,2025,February,23655,177
+Northern,Kumbungu,2025,March,23655,122
+Northern,Kumbungu,2025,April,23655,97
+Northern,Kumbungu,2025,May,23655,135
+Northern,Kumbungu,2025,June,23655,194
+Northern,Kumbungu,2025,July,23655,296
+Northern,Kumbungu,2025,August,23655,309
+Northern,Kumbungu,2025,September,23655,421
+Northern,Kumbungu,2025,October,23655,390
+Northern,Kumbungu,2025,November,23655,261
+Northern,Kumbungu,2025,December,23655,159
+Northern,Mion,2021,January,17562,235
+Northern,Mion,2021,February,17562,213
+Northern,Mion,2021,March,17562,168
+Northern,Mion,2021,April,17562,125
+Northern,Mion,2021,May,17562,141
+Northern,Mion,2021,June,17562,479
+Northern,Mion,2021,July,17562,710
+Northern,Mion,2021,August,17562,605
+Northern,Mion,2021,September,17562,576
+Northern,Mion,2021,October,17562,674
+Northern,Mion,2021,November,17562,497
+Northern,Mion,2021,December,17562,359
+Northern,Mion,2022,January,17931,270
+Northern,Mion,2022,February,17931,187
+Northern,Mion,2022,March,17931,158
+Northern,Mion,2022,April,17931,163
+Northern,Mion,2022,May,17931,443
+Northern,Mion,2022,June,17931,742
+Northern,Mion,2022,July,17931,631
+Northern,Mion,2022,August,17931,545
+Northern,Mion,2022,September,17931,703
+Northern,Mion,2022,October,17931,652
+Northern,Mion,2022,November,17931,561
+Northern,Mion,2022,December,17931,266
+Northern,Mion,2023,January,18307,264
+Northern,Mion,2023,February,18307,185
+Northern,Mion,2023,March,18307,130
+Northern,Mion,2023,April,18307,148
+Northern,Mion,2023,May,18307,234
+Northern,Mion,2023,June,18307,456
+Northern,Mion,2023,July,18307,727
+Northern,Mion,2023,August,18307,629
+Northern,Mion,2023,September,18307,620
+Northern,Mion,2023,October,18307,513
+Northern,Mion,2023,November,18307,581
+Northern,Mion,2023,December,18307,314
+Northern,Mion,2024,January,19667,321
+Northern,Mion,2024,February,19614,169
+Northern,Mion,2024,March,19667,129
+Northern,Mion,2024,April,19667,127
+Northern,Mion,2024,May,19667,204
+Northern,Mion,2024,June,19667,311
+Northern,Mion,2024,July,19667,498
+Northern,Mion,2024,August,19667,463
+Northern,Mion,2024,September,19667,397
+Northern,Mion,2024,October,19667,539
+Northern,Mion,2024,November,19667,480
+Northern,Mion,2024,December,19667,192
+Northern,Mion,2025,January,20307,159
+Northern,Mion,2025,February,20307,151
+Northern,Mion,2025,March,20307,131
+Northern,Mion,2025,April,20307,101
+Northern,Mion,2025,May,20307,121
+Northern,Mion,2025,June,20307,256
+Northern,Mion,2025,July,20307,335
+Northern,Mion,2025,August,20307,334
+Northern,Mion,2025,September,20307,361
+Northern,Mion,2025,October,20307,557
+Northern,Mion,2025,November,20307,296
+Northern,Mion,2025,December,20307,146
+Northern,Nanton,2021,January,9392,83
+Northern,Nanton,2021,February,9392,76
+Northern,Nanton,2021,March,9392,73
+Northern,Nanton,2021,April,9392,70
+Northern,Nanton,2021,May,9392,62
+Northern,Nanton,2021,June,9392,135
+Northern,Nanton,2021,July,9392,228
+Northern,Nanton,2021,August,9392,213
+Northern,Nanton,2021,September,9392,173
+Northern,Nanton,2021,October,9392,226
+Northern,Nanton,2021,November,9392,236
+Northern,Nanton,2021,December,9392,146
+Northern,Nanton,2022,January,9589,136
+Northern,Nanton,2022,February,9589,133
+Northern,Nanton,2022,March,9589,66
+Northern,Nanton,2022,April,9589,60
+Northern,Nanton,2022,May,9589,71
+Northern,Nanton,2022,June,9589,104
+Northern,Nanton,2022,July,9589,132
+Northern,Nanton,2022,August,9589,130
+Northern,Nanton,2022,September,9589,205
+Northern,Nanton,2022,October,9589,217
+Northern,Nanton,2022,November,9589,203
+Northern,Nanton,2022,December,9589,102
+Northern,Nanton,2023,January,9790,92
+Northern,Nanton,2023,February,9790,65
+Northern,Nanton,2023,March,9790,51
+Northern,Nanton,2023,April,9790,72
+Northern,Nanton,2023,May,9790,93
+Northern,Nanton,2023,June,9790,139
+Northern,Nanton,2023,July,9790,217
+Northern,Nanton,2023,August,9790,243
+Northern,Nanton,2023,September,9790,214
+Northern,Nanton,2023,October,9790,295
+Northern,Nanton,2023,November,9790,233
+Northern,Nanton,2023,December,9790,139
+Northern,Nanton,2024,January,10518,101
+Northern,Nanton,2024,February,10489,69
+Northern,Nanton,2024,March,10518,76
+Northern,Nanton,2024,April,10518,58
+Northern,Nanton,2024,May,10518,104
+Northern,Nanton,2024,June,10518,116
+Northern,Nanton,2024,July,10518,148
+Northern,Nanton,2024,August,10518,268
+Northern,Nanton,2024,September,10518,249
+Northern,Nanton,2024,October,10518,324
+Northern,Nanton,2024,November,10518,267
+Northern,Nanton,2024,December,10518,178
+Northern,Nanton,2025,January,10860,152
+Northern,Nanton,2025,February,10860,162
+Northern,Nanton,2025,March,10860,101
+Northern,Nanton,2025,April,10860,77
+Northern,Nanton,2025,May,10860,77
+Northern,Nanton,2025,June,10860,103
+Northern,Nanton,2025,July,10860,141
+Northern,Nanton,2025,August,10860,192
+Northern,Nanton,2025,September,10860,277
+Northern,Nanton,2025,October,10860,366
+Northern,Nanton,2025,November,10860,258
+Northern,Nanton,2025,December,10860,67
+Northern,Nanumba North,2021,January,34906,623
+Northern,Nanumba North,2021,February,34906,544
+Northern,Nanumba North,2021,March,34906,382
+Northern,Nanumba North,2021,April,34906,299
+Northern,Nanumba North,2021,May,34906,353
+Northern,Nanumba North,2021,June,34906,812
+Northern,Nanumba North,2021,July,34906,1576
+Northern,Nanumba North,2021,August,34906,1219
+Northern,Nanumba North,2021,September,34906,1016
+Northern,Nanumba North,2021,October,34906,1226
+Northern,Nanumba North,2021,November,34906,1096
+Northern,Nanumba North,2021,December,34906,803
+Northern,Nanumba North,2022,January,35639,583
+Northern,Nanumba North,2022,February,35639,623
+Northern,Nanumba North,2022,March,35639,309
+Northern,Nanumba North,2022,April,35639,266
+Northern,Nanumba North,2022,May,35639,701
+Northern,Nanumba North,2022,June,35639,1058
+Northern,Nanumba North,2022,July,35639,913
+Northern,Nanumba North,2022,August,35639,916
+Northern,Nanumba North,2022,September,35639,993
+Northern,Nanumba North,2022,October,35639,1176
+Northern,Nanumba North,2022,November,35639,1242
+Northern,Nanumba North,2022,December,35639,964
+Northern,Nanumba North,2023,January,36387,588
+Northern,Nanumba North,2023,February,36387,533
+Northern,Nanumba North,2023,March,36387,479
+Northern,Nanumba North,2023,April,36387,661
+Northern,Nanumba North,2023,May,36387,441
+Northern,Nanumba North,2023,June,36387,877
+Northern,Nanumba North,2023,July,36387,1140
+Northern,Nanumba North,2023,August,36387,1162
+Northern,Nanumba North,2023,September,36387,1437
+Northern,Nanumba North,2023,October,36387,1377
+Northern,Nanumba North,2023,November,36387,1774
+Northern,Nanumba North,2023,December,36387,798
+Northern,Nanumba North,2024,January,39090,575
+Northern,Nanumba North,2024,February,38983,486
+Northern,Nanumba North,2024,March,39090,424
+Northern,Nanumba North,2024,April,39090,359
+Northern,Nanumba North,2024,May,39090,618
+Northern,Nanumba North,2024,June,39090,761
+Northern,Nanumba North,2024,July,39090,866
+Northern,Nanumba North,2024,August,39090,1203
+Northern,Nanumba North,2024,September,39090,847
+Northern,Nanumba North,2024,October,39090,970
+Northern,Nanumba North,2024,November,39090,976
+Northern,Nanumba North,2024,December,39090,397
+Northern,Nanumba North,2025,January,40360,496
+Northern,Nanumba North,2025,February,40360,393
+Northern,Nanumba North,2025,March,40360,455
+Northern,Nanumba North,2025,April,40360,631
+Northern,Nanumba North,2025,May,40360,526
+Northern,Nanumba North,2025,June,40360,594
+Northern,Nanumba North,2025,July,40360,623
+Northern,Nanumba North,2025,August,40360,690
+Northern,Nanumba North,2025,September,40360,833
+Northern,Nanumba North,2025,October,40360,948
+Northern,Nanumba North,2025,November,40360,741
+Northern,Nanumba North,2025,December,40360,620
+Northern,Nanumba South,2021,January,19679,512
+Northern,Nanumba South,2021,February,19679,554
+Northern,Nanumba South,2021,March,19679,360
+Northern,Nanumba South,2021,April,19679,307
+Northern,Nanumba South,2021,May,19679,279
+Northern,Nanumba South,2021,June,19679,458
+Northern,Nanumba South,2021,July,19679,843
+Northern,Nanumba South,2021,August,19679,885
+Northern,Nanumba South,2021,September,19679,834
+Northern,Nanumba South,2021,October,19679,763
+Northern,Nanumba South,2021,November,19679,701
+Northern,Nanumba South,2021,December,19679,546
+Northern,Nanumba South,2022,January,20092,437
+Northern,Nanumba South,2022,February,20092,333
+Northern,Nanumba South,2022,March,20092,235
+Northern,Nanumba South,2022,April,20092,231
+Northern,Nanumba South,2022,May,20092,428
+Northern,Nanumba South,2022,June,20092,521
+Northern,Nanumba South,2022,July,20092,476
+Northern,Nanumba South,2022,August,20092,509
+Northern,Nanumba South,2022,September,20092,452
+Northern,Nanumba South,2022,October,20092,714
+Northern,Nanumba South,2022,November,20092,655
+Northern,Nanumba South,2022,December,20092,445
+Northern,Nanumba South,2023,January,20514,359
+Northern,Nanumba South,2023,February,20514,388
+Northern,Nanumba South,2023,March,20514,272
+Northern,Nanumba South,2023,April,20514,285
+Northern,Nanumba South,2023,May,20514,374
+Northern,Nanumba South,2023,June,20514,595
+Northern,Nanumba South,2023,July,20514,626
+Northern,Nanumba South,2023,August,20514,820
+Northern,Nanumba South,2023,September,20514,758
+Northern,Nanumba South,2023,October,20514,687
+Northern,Nanumba South,2023,November,20514,818
+Northern,Nanumba South,2023,December,20514,609
+Northern,Nanumba South,2024,January,22038,496
+Northern,Nanumba South,2024,February,21978,314
+Northern,Nanumba South,2024,March,22038,324
+Northern,Nanumba South,2024,April,22038,267
+Northern,Nanumba South,2024,May,22038,392
+Northern,Nanumba South,2024,June,22038,478
+Northern,Nanumba South,2024,July,22038,472
+Northern,Nanumba South,2024,August,22038,727
+Northern,Nanumba South,2024,September,22038,784
+Northern,Nanumba South,2024,October,22038,734
+Northern,Nanumba South,2024,November,22038,659
+Northern,Nanumba South,2024,December,22038,366
+Northern,Nanumba South,2025,January,22755,298
+Northern,Nanumba South,2025,February,22755,243
+Northern,Nanumba South,2025,March,22755,247
+Northern,Nanumba South,2025,April,22755,249
+Northern,Nanumba South,2025,May,22755,277
+Northern,Nanumba South,2025,June,22755,376
+Northern,Nanumba South,2025,July,22755,451
+Northern,Nanumba South,2025,August,22755,499
+Northern,Nanumba South,2025,September,22755,533
+Northern,Nanumba South,2025,October,22755,585
+Northern,Nanumba South,2025,November,22755,517
+Northern,Nanumba South,2025,December,22755,368
+Northern,Saboba,2021,January,17701,582
+Northern,Saboba,2021,February,17701,679
+Northern,Saboba,2021,March,17701,551
+Northern,Saboba,2021,April,17701,368
+Northern,Saboba,2021,May,17701,484
+Northern,Saboba,2021,June,17701,862
+Northern,Saboba,2021,July,17701,937
+Northern,Saboba,2021,August,17701,750
+Northern,Saboba,2021,September,17701,736
+Northern,Saboba,2021,October,17701,1178
+Northern,Saboba,2021,November,17701,1215
+Northern,Saboba,2021,December,17701,866
+Northern,Saboba,2022,January,18073,769
+Northern,Saboba,2022,February,18073,721
+Northern,Saboba,2022,March,18073,698
+Northern,Saboba,2022,April,18073,486
+Northern,Saboba,2022,May,18073,687
+Northern,Saboba,2022,June,18073,610
+Northern,Saboba,2022,July,18073,530
+Northern,Saboba,2022,August,18073,673
+Northern,Saboba,2022,September,18073,885
+Northern,Saboba,2022,October,18073,724
+Northern,Saboba,2022,November,18073,624
+Northern,Saboba,2022,December,18073,615
+Northern,Saboba,2023,January,18453,555
+Northern,Saboba,2023,February,18453,556
+Northern,Saboba,2023,March,18453,569
+Northern,Saboba,2023,April,18453,482
+Northern,Saboba,2023,May,18453,514
+Northern,Saboba,2023,June,18453,907
+Northern,Saboba,2023,July,18453,1107
+Northern,Saboba,2023,August,18453,1466
+Northern,Saboba,2023,September,18453,1438
+Northern,Saboba,2023,October,18453,1633
+Northern,Saboba,2023,November,18453,1503
+Northern,Saboba,2023,December,18453,834
+Northern,Saboba,2024,January,19823,811
+Northern,Saboba,2024,February,19769,820
+Northern,Saboba,2024,March,19823,689
+Northern,Saboba,2024,April,19823,471
+Northern,Saboba,2024,May,19823,480
+Northern,Saboba,2024,June,19823,363
+Northern,Saboba,2024,July,19823,663
+Northern,Saboba,2024,August,19823,634
+Northern,Saboba,2024,September,19823,714
+Northern,Saboba,2024,October,19823,663
+Northern,Saboba,2024,November,19823,731
+Northern,Saboba,2024,December,19823,495
+Northern,Saboba,2025,January,20467,467
+Northern,Saboba,2025,February,20467,551
+Northern,Saboba,2025,March,20467,469
+Northern,Saboba,2025,April,20467,449
+Northern,Saboba,2025,May,20467,369
+Northern,Saboba,2025,June,20467,477
+Northern,Saboba,2025,July,20467,568
+Northern,Saboba,2025,August,20467,494
+Northern,Saboba,2025,September,20467,555
+Northern,Saboba,2025,October,20467,740
+Northern,Saboba,2025,November,20467,763
+Northern,Saboba,2025,December,20467,604
+Northern,Sagnarigu,2021,January,63217,630
+Northern,Sagnarigu,2021,February,63217,574
+Northern,Sagnarigu,2021,March,63217,544
+Northern,Sagnarigu,2021,April,63217,435
+Northern,Sagnarigu,2021,May,63217,590
+Northern,Sagnarigu,2021,June,63217,1121
+Northern,Sagnarigu,2021,July,63217,1614
+Northern,Sagnarigu,2021,August,63217,973
+Northern,Sagnarigu,2021,September,63217,854
+Northern,Sagnarigu,2021,October,63217,667
+Northern,Sagnarigu,2021,November,63217,645
+Northern,Sagnarigu,2021,December,63217,722
+Northern,Sagnarigu,2022,January,64544,924
+Northern,Sagnarigu,2022,February,64544,811
+Northern,Sagnarigu,2022,March,64544,682
+Northern,Sagnarigu,2022,April,64544,685
+Northern,Sagnarigu,2022,May,64544,669
+Northern,Sagnarigu,2022,June,64544,998
+Northern,Sagnarigu,2022,July,64544,751
+Northern,Sagnarigu,2022,August,64544,800
+Northern,Sagnarigu,2022,September,64544,971
+Northern,Sagnarigu,2022,October,64544,1194
+Northern,Sagnarigu,2022,November,64544,770
+Northern,Sagnarigu,2022,December,64544,547
+Northern,Sagnarigu,2023,January,65900,831
+Northern,Sagnarigu,2023,February,65900,772
+Northern,Sagnarigu,2023,March,65900,938
+Northern,Sagnarigu,2023,April,65900,585
+Northern,Sagnarigu,2023,May,65900,771
+Northern,Sagnarigu,2023,June,65900,945
+Northern,Sagnarigu,2023,July,65900,834
+Northern,Sagnarigu,2023,August,65900,825
+Northern,Sagnarigu,2023,September,65900,725
+Northern,Sagnarigu,2023,October,65900,800
+Northern,Sagnarigu,2023,November,65900,761
+Northern,Sagnarigu,2023,December,65900,843
+Northern,Sagnarigu,2024,January,70795,785
+Northern,Sagnarigu,2024,February,70601,843
+Northern,Sagnarigu,2024,March,70795,681
+Northern,Sagnarigu,2024,April,70795,435
+Northern,Sagnarigu,2024,May,70795,569
+Northern,Sagnarigu,2024,June,70795,531
+Northern,Sagnarigu,2024,July,70795,680
+Northern,Sagnarigu,2024,August,70795,470
+Northern,Sagnarigu,2024,September,70795,512
+Northern,Sagnarigu,2024,October,70795,635
+Northern,Sagnarigu,2024,November,70795,704
+Northern,Sagnarigu,2024,December,70795,503
+Northern,Sagnarigu,2025,January,73095,805
+Northern,Sagnarigu,2025,February,73095,695
+Northern,Sagnarigu,2025,March,73095,703
+Northern,Sagnarigu,2025,April,73095,463
+Northern,Sagnarigu,2025,May,73095,410
+Northern,Sagnarigu,2025,June,73095,373
+Northern,Sagnarigu,2025,July,73095,490
+Northern,Sagnarigu,2025,August,73095,325
+Northern,Sagnarigu,2025,September,73095,477
+Northern,Sagnarigu,2025,October,73095,663
+Northern,Sagnarigu,2025,November,73095,376
+Northern,Sagnarigu,2025,December,73095,275
+Northern,Savelugu,2021,January,22734,125
+Northern,Savelugu,2021,February,22734,82
+Northern,Savelugu,2021,March,22734,54
+Northern,Savelugu,2021,April,22734,51
+Northern,Savelugu,2021,May,22734,63
+Northern,Savelugu,2021,June,22734,161
+Northern,Savelugu,2021,July,22734,272
+Northern,Savelugu,2021,August,22734,275
+Northern,Savelugu,2021,September,22734,255
+Northern,Savelugu,2021,October,22734,432
+Northern,Savelugu,2021,November,22734,275
+Northern,Savelugu,2021,December,22734,169
+Northern,Savelugu,2022,January,23212,151
+Northern,Savelugu,2022,February,23212,81
+Northern,Savelugu,2022,March,23212,65
+Northern,Savelugu,2022,April,23212,64
+Northern,Savelugu,2022,May,23212,83
+Northern,Savelugu,2022,June,23212,133
+Northern,Savelugu,2022,July,23212,178
+Northern,Savelugu,2022,August,23212,172
+Northern,Savelugu,2022,September,23212,265
+Northern,Savelugu,2022,October,23212,377
+Northern,Savelugu,2022,November,23212,237
+Northern,Savelugu,2022,December,23212,143
+Northern,Savelugu,2023,January,23699,145
+Northern,Savelugu,2023,February,23699,68
+Northern,Savelugu,2023,March,23699,80
+Northern,Savelugu,2023,April,23699,70
+Northern,Savelugu,2023,May,23699,91
+Northern,Savelugu,2023,June,23699,140
+Northern,Savelugu,2023,July,23699,226
+Northern,Savelugu,2023,August,23699,214
+Northern,Savelugu,2023,September,23699,208
+Northern,Savelugu,2023,October,23699,405
+Northern,Savelugu,2023,November,23699,343
+Northern,Savelugu,2023,December,23699,171
+Northern,Savelugu,2024,January,25460,107
+Northern,Savelugu,2024,February,25390,67
+Northern,Savelugu,2024,March,25460,62
+Northern,Savelugu,2024,April,25460,44
+Northern,Savelugu,2024,May,25460,50
+Northern,Savelugu,2024,June,25460,74
+Northern,Savelugu,2024,July,25460,202
+Northern,Savelugu,2024,August,25460,210
+Northern,Savelugu,2024,September,25460,223
+Northern,Savelugu,2024,October,25460,293
+Northern,Savelugu,2024,November,25460,350
+Northern,Savelugu,2024,December,25460,243
+Northern,Savelugu,2025,January,26287,135
+Northern,Savelugu,2025,February,26287,112
+Northern,Savelugu,2025,March,26287,71
+Northern,Savelugu,2025,April,26287,64
+Northern,Savelugu,2025,May,26287,65
+Northern,Savelugu,2025,June,26287,111
+Northern,Savelugu,2025,July,26287,159
+Northern,Savelugu,2025,August,26287,296
+Northern,Savelugu,2025,September,26287,223
+Northern,Savelugu,2025,October,26287,270
+Northern,Savelugu,2025,November,26287,137
+Northern,Savelugu,2025,December,26287,58
+Northern,Tamale,2021,January,69328,865
+Northern,Tamale,2021,February,69328,910
+Northern,Tamale,2021,March,69328,408
+Northern,Tamale,2021,April,69328,442
+Northern,Tamale,2021,May,69328,464
+Northern,Tamale,2021,June,69328,954
+Northern,Tamale,2021,July,69328,1209
+Northern,Tamale,2021,August,69328,800
+Northern,Tamale,2021,September,69328,894
+Northern,Tamale,2021,October,69328,944
+Northern,Tamale,2021,November,69328,729
+Northern,Tamale,2021,December,69328,861
+Northern,Tamale,2022,January,70784,1376
+Northern,Tamale,2022,February,70784,979
+Northern,Tamale,2022,March,70784,898
+Northern,Tamale,2022,April,70784,793
+Northern,Tamale,2022,May,70784,765
+Northern,Tamale,2022,June,70784,1178
+Northern,Tamale,2022,July,70784,869
+Northern,Tamale,2022,August,70784,726
+Northern,Tamale,2022,September,70784,646
+Northern,Tamale,2022,October,70784,617
+Northern,Tamale,2022,November,70784,871
+Northern,Tamale,2022,December,70784,750
+Northern,Tamale,2023,January,72270,636
+Northern,Tamale,2023,February,72270,493
+Northern,Tamale,2023,March,72270,359
+Northern,Tamale,2023,April,72270,346
+Northern,Tamale,2023,May,72270,633
+Northern,Tamale,2023,June,72270,608
+Northern,Tamale,2023,July,72270,578
+Northern,Tamale,2023,August,72270,523
+Northern,Tamale,2023,September,72270,450
+Northern,Tamale,2023,October,72270,481
+Northern,Tamale,2023,November,72270,807
+Northern,Tamale,2023,December,72270,906
+Northern,Tamale,2024,January,77638,770
+Northern,Tamale,2024,February,77426,793
+Northern,Tamale,2024,March,77638,888
+Northern,Tamale,2024,April,77638,679
+Northern,Tamale,2024,May,77638,736
+Northern,Tamale,2024,June,77638,922
+Northern,Tamale,2024,July,77638,1570
+Northern,Tamale,2024,August,77638,1026
+Northern,Tamale,2024,September,77638,918
+Northern,Tamale,2024,October,77638,600
+Northern,Tamale,2024,November,77638,841
+Northern,Tamale,2024,December,77638,1003
+Northern,Tamale,2025,January,80161,1160
+Northern,Tamale,2025,February,80161,974
+Northern,Tamale,2025,March,80161,1027
+Northern,Tamale,2025,April,80161,728
+Northern,Tamale,2025,May,80161,646
+Northern,Tamale,2025,June,80161,435
+Northern,Tamale,2025,July,80161,661
+Northern,Tamale,2025,August,80161,642
+Northern,Tamale,2025,September,80161,663
+Northern,Tamale,2025,October,80161,1151
+Northern,Tamale,2025,November,80161,354
+Northern,Tamale,2025,December,80161,225
+Northern,Tatale-Sangule,2021,January,13839,348
+Northern,Tatale-Sangule,2021,February,13839,341
+Northern,Tatale-Sangule,2021,March,13839,202
+Northern,Tatale-Sangule,2021,April,13839,154
+Northern,Tatale-Sangule,2021,May,13839,139
+Northern,Tatale-Sangule,2021,June,13839,465
+Northern,Tatale-Sangule,2021,July,13839,706
+Northern,Tatale-Sangule,2021,August,13839,479
+Northern,Tatale-Sangule,2021,September,13839,504
+Northern,Tatale-Sangule,2021,October,13839,796
+Northern,Tatale-Sangule,2021,November,13839,743
+Northern,Tatale-Sangule,2021,December,13839,424
+Northern,Tatale-Sangule,2022,January,14130,294
+Northern,Tatale-Sangule,2022,February,14130,292
+Northern,Tatale-Sangule,2022,March,14130,169
+Northern,Tatale-Sangule,2022,April,14130,150
+Northern,Tatale-Sangule,2022,May,14130,365
+Northern,Tatale-Sangule,2022,June,14130,501
+Northern,Tatale-Sangule,2022,July,14130,319
+Northern,Tatale-Sangule,2022,August,14130,370
+Northern,Tatale-Sangule,2022,September,14130,429
+Northern,Tatale-Sangule,2022,October,14130,646
+Northern,Tatale-Sangule,2022,November,14130,656
+Northern,Tatale-Sangule,2022,December,14130,342
+Northern,Tatale-Sangule,2023,January,14426,228
+Northern,Tatale-Sangule,2023,February,14426,232
+Northern,Tatale-Sangule,2023,March,14426,115
+Northern,Tatale-Sangule,2023,April,14426,133
+Northern,Tatale-Sangule,2023,May,14426,165
+Northern,Tatale-Sangule,2023,June,14426,421
+Northern,Tatale-Sangule,2023,July,14426,406
+Northern,Tatale-Sangule,2023,August,14426,406
+Northern,Tatale-Sangule,2023,September,14426,457
+Northern,Tatale-Sangule,2023,October,14426,503
+Northern,Tatale-Sangule,2023,November,14426,567
+Northern,Tatale-Sangule,2023,December,14426,400
+Northern,Tatale-Sangule,2024,January,15498,315
+Northern,Tatale-Sangule,2024,February,15456,251
+Northern,Tatale-Sangule,2024,March,15498,165
+Northern,Tatale-Sangule,2024,April,15498,183
+Northern,Tatale-Sangule,2024,May,15498,216
+Northern,Tatale-Sangule,2024,June,15498,375
+Northern,Tatale-Sangule,2024,July,15498,453
+Northern,Tatale-Sangule,2024,August,15498,451
+Northern,Tatale-Sangule,2024,September,15498,387
+Northern,Tatale-Sangule,2024,October,15498,425
+Northern,Tatale-Sangule,2024,November,15498,502
+Northern,Tatale-Sangule,2024,December,15498,193
+Northern,Tatale-Sangule,2025,January,16002,155
+Northern,Tatale-Sangule,2025,February,16002,143
+Northern,Tatale-Sangule,2025,March,16002,157
+Northern,Tatale-Sangule,2025,April,16002,102
+Northern,Tatale-Sangule,2025,May,16002,108
+Northern,Tatale-Sangule,2025,June,16002,233
+Northern,Tatale-Sangule,2025,July,16002,346
+Northern,Tatale-Sangule,2025,August,16002,247
+Northern,Tatale-Sangule,2025,September,16002,275
+Northern,Tatale-Sangule,2025,October,16002,320
+Northern,Tatale-Sangule,2025,November,16002,354
+Northern,Tatale-Sangule,2025,December,16002,208
+Northern,Tolon,2021,January,21849,384
+Northern,Tolon,2021,February,21849,303
+Northern,Tolon,2021,March,21849,273
+Northern,Tolon,2021,April,21849,251
+Northern,Tolon,2021,May,21849,233
+Northern,Tolon,2021,June,21849,423
+Northern,Tolon,2021,July,21849,787
+Northern,Tolon,2021,August,21849,644
+Northern,Tolon,2021,September,21849,563
+Northern,Tolon,2021,October,21849,628
+Northern,Tolon,2021,November,21849,496
+Northern,Tolon,2021,December,21849,274
+Northern,Tolon,2022,January,22308,292
+Northern,Tolon,2022,February,22308,310
+Northern,Tolon,2022,March,22308,256
+Northern,Tolon,2022,April,22308,214
+Northern,Tolon,2022,May,22308,302
+Northern,Tolon,2022,June,22308,439
+Northern,Tolon,2022,July,22308,553
+Northern,Tolon,2022,August,22308,528
+Northern,Tolon,2022,September,22308,779
+Northern,Tolon,2022,October,22308,1009
+Northern,Tolon,2022,November,22308,580
+Northern,Tolon,2022,December,22308,415
+Northern,Tolon,2023,January,22776,353
+Northern,Tolon,2023,February,22776,293
+Northern,Tolon,2023,March,22776,250
+Northern,Tolon,2023,April,22776,219
+Northern,Tolon,2023,May,22776,305
+Northern,Tolon,2023,June,22776,462
+Northern,Tolon,2023,July,22776,769
+Northern,Tolon,2023,August,22776,647
+Northern,Tolon,2023,September,22776,795
+Northern,Tolon,2023,October,22776,744
+Northern,Tolon,2023,November,22776,642
+Northern,Tolon,2023,December,22776,553
+Northern,Tolon,2024,January,24466,444
+Northern,Tolon,2024,February,24399,273
+Northern,Tolon,2024,March,24466,274
+Northern,Tolon,2024,April,24466,249
+Northern,Tolon,2024,May,24466,320
+Northern,Tolon,2024,June,24466,356
+Northern,Tolon,2024,July,24466,616
+Northern,Tolon,2024,August,24466,549
+Northern,Tolon,2024,September,24466,654
+Northern,Tolon,2024,October,24466,635
+Northern,Tolon,2024,November,24466,558
+Northern,Tolon,2024,December,24466,291
+Northern,Tolon,2025,January,25261,306
+Northern,Tolon,2025,February,25261,254
+Northern,Tolon,2025,March,25261,238
+Northern,Tolon,2025,April,25261,216
+Northern,Tolon,2025,May,25261,205
+Northern,Tolon,2025,June,25261,273
+Northern,Tolon,2025,July,25261,320
+Northern,Tolon,2025,August,25261,419
+Northern,Tolon,2025,September,25261,531
+Northern,Tolon,2025,October,25261,600
+Northern,Tolon,2025,November,25261,438
+Northern,Tolon,2025,December,25261,217
+Northern,Yendi,2021,January,28568,413
+Northern,Yendi,2021,February,28568,432
+Northern,Yendi,2021,March,28568,347
+Northern,Yendi,2021,April,28568,190
+Northern,Yendi,2021,May,28568,130
+Northern,Yendi,2021,June,28568,423
+Northern,Yendi,2021,July,28568,862
+Northern,Yendi,2021,August,28568,684
+Northern,Yendi,2021,September,28568,540
+Northern,Yendi,2021,October,28568,642
+Northern,Yendi,2021,November,28568,646
+Northern,Yendi,2021,December,28568,634
+Northern,Yendi,2022,January,29168,263
+Northern,Yendi,2022,February,29168,218
+Northern,Yendi,2022,March,29168,177
+Northern,Yendi,2022,April,29168,144
+Northern,Yendi,2022,May,29168,368
+Northern,Yendi,2022,June,29168,550
+Northern,Yendi,2022,July,29168,519
+Northern,Yendi,2022,August,29168,566
+Northern,Yendi,2022,September,29168,645
+Northern,Yendi,2022,October,29168,816
+Northern,Yendi,2022,November,29168,662
+Northern,Yendi,2022,December,29168,358
+Northern,Yendi,2023,January,29780,282
+Northern,Yendi,2023,February,29780,223
+Northern,Yendi,2023,March,29780,165
+Northern,Yendi,2023,April,29780,126
+Northern,Yendi,2023,May,29780,164
+Northern,Yendi,2023,June,29780,450
+Northern,Yendi,2023,July,29780,462
+Northern,Yendi,2023,August,29780,707
+Northern,Yendi,2023,September,29780,682
+Northern,Yendi,2023,October,29780,807
+Northern,Yendi,2023,November,29780,974
+Northern,Yendi,2023,December,29780,465
+Northern,Yendi,2024,January,31993,294
+Northern,Yendi,2024,February,31905,207
+Northern,Yendi,2024,March,31993,151
+Northern,Yendi,2024,April,31993,113
+Northern,Yendi,2024,May,31993,190
+Northern,Yendi,2024,June,31993,400
+Northern,Yendi,2024,July,31993,665
+Northern,Yendi,2024,August,31993,619
+Northern,Yendi,2024,September,31993,620
+Northern,Yendi,2024,October,31993,737
+Northern,Yendi,2024,November,31993,658
+Northern,Yendi,2024,December,31993,287
+Northern,Yendi,2025,January,33032,130
+Northern,Yendi,2025,February,33032,144
+Northern,Yendi,2025,March,33032,85
+Northern,Yendi,2025,April,33032,89
+Northern,Yendi,2025,May,33032,110
+Northern,Yendi,2025,June,33032,288
+Northern,Yendi,2025,July,33032,378
+Northern,Yendi,2025,August,33032,418
+Northern,Yendi,2025,September,33032,447
+Northern,Yendi,2025,October,33032,616
+Northern,Yendi,2025,November,33032,408
+Northern,Yendi,2025,December,33032,219
+Northern,Zabzugu,2021,January,15327,268
+Northern,Zabzugu,2021,February,15327,275
+Northern,Zabzugu,2021,March,15327,161
+Northern,Zabzugu,2021,April,15327,181
+Northern,Zabzugu,2021,May,15327,198
+Northern,Zabzugu,2021,June,15327,386
+Northern,Zabzugu,2021,July,15327,697
+Northern,Zabzugu,2021,August,15327,526
+Northern,Zabzugu,2021,September,15327,519
+Northern,Zabzugu,2021,October,15327,592
+Northern,Zabzugu,2021,November,15327,601
+Northern,Zabzugu,2021,December,15327,338
+Northern,Zabzugu,2022,January,15648,176
+Northern,Zabzugu,2022,February,15648,206
+Northern,Zabzugu,2022,March,15648,109
+Northern,Zabzugu,2022,April,15648,67
+Northern,Zabzugu,2022,May,15648,477
+Northern,Zabzugu,2022,June,15648,497
+Northern,Zabzugu,2022,July,15648,347
+Northern,Zabzugu,2022,August,15648,328
+Northern,Zabzugu,2022,September,15648,400
+Northern,Zabzugu,2022,October,15648,563
+Northern,Zabzugu,2022,November,15648,692
+Northern,Zabzugu,2022,December,15648,384
+Northern,Zabzugu,2023,January,15977,267
+Northern,Zabzugu,2023,February,15977,285
+Northern,Zabzugu,2023,March,15977,401
+Northern,Zabzugu,2023,April,15977,234
+Northern,Zabzugu,2023,May,15977,217
+Northern,Zabzugu,2023,June,15977,588
+Northern,Zabzugu,2023,July,15977,552
+Northern,Zabzugu,2023,August,15977,470
+Northern,Zabzugu,2023,September,15977,514
+Northern,Zabzugu,2023,October,15977,586
+Northern,Zabzugu,2023,November,15977,754
+Northern,Zabzugu,2023,December,15977,335
+Northern,Zabzugu,2024,January,17164,254
+Northern,Zabzugu,2024,February,17117,207
+Northern,Zabzugu,2024,March,17164,193
+Northern,Zabzugu,2024,April,17164,100
+Northern,Zabzugu,2024,May,17164,281
+Northern,Zabzugu,2024,June,17164,394
+Northern,Zabzugu,2024,July,17164,438
+Northern,Zabzugu,2024,August,17164,517
+Northern,Zabzugu,2024,September,17164,558
+Northern,Zabzugu,2024,October,17164,544
+Northern,Zabzugu,2024,November,17164,726
+Northern,Zabzugu,2024,December,17164,238
+Northern,Zabzugu,2025,January,17722,194
+Northern,Zabzugu,2025,February,17722,167
+Northern,Zabzugu,2025,March,17722,109
+Northern,Zabzugu,2025,April,17722,101
+Northern,Zabzugu,2025,May,17722,137
+Northern,Zabzugu,2025,June,17722,223
+Northern,Zabzugu,2025,July,17722,303
+Northern,Zabzugu,2025,August,17722,313
+Northern,Zabzugu,2025,September,17722,268
+Northern,Zabzugu,2025,October,17722,373
+Northern,Zabzugu,2025,November,17722,477
+Northern,Zabzugu,2025,December,17722,161

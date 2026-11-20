@@ -25,10 +25,16 @@ import manifest
 
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-BURNIN_EXP_ID = "523cbc34-5966-4503-9c88-0e5999f2e0b9"  # Set this to the experiment ID of the completed burn-in.
+# BURNIN_EXP_ID = "c696ab6d-5158-4df3-a5d1-b2f2042e0b5e"  # Set this to the experiment ID of the completed burn-in.
+# BURNIN_EXP_ID = "c5da823a-7eac-4cf2-ac2b-8dc21f102212"  # Set this to the experiment ID of the completed burn-in.
+# BURNIN_EXP_ID = "519d6a11-3f85-43cf-9434-ec6ed1a946f0"  # Set this to the experiment ID of the completed burn-in.
+# BURNIN_EXP_ID = "d273fc32-5650-45a4-b2a2-4580b069ddc2"  # Set this to the experiment ID of the completed burn-in.
+# BURNIN_EXP_ID = "2e204e86-d11e-4706-9884-fa50df3d1888"  # Set this to the experiment ID of the completed burn-in.
+BURNIN_EXP_ID = "31f646d9-8002-4593-9530-2ae743835b6b"  # Set this to the experiment ID of the completed burn-in.
 SERIALIZE_YEARS = 50
-PICKUP_START_YEAR = 2014
-PICKUP_YEARS = 12
+PICKUP_START_YEAR = 2013
+PICKUP_YEARS = 13
+PICKUP_START_TIME = SERIALIZE_YEARS * 365 + 1
 VECTOR_SPECIES = ["gambiae", "arabiensis", "funestus"]
 
 
@@ -54,7 +60,7 @@ def set_param_fn(config):
     config.parameters.Run_Number = 0
     config.parameters.Serialized_Population_Reading_Type = "READ"
     config.parameters.Serialization_Mask_Node_Read = 0
-    config.parameters.Serialization_Time_Steps = [SERIALIZE_YEARS * 365]
+    config.parameters.Start_Time = PICKUP_START_TIME
     config.parameters.Custom_Individual_Events = [
         "Received_Treatment",
         "Received_ITN",
@@ -81,20 +87,25 @@ def build_demog():
     northern_region_cbr_1963 = (
         national_cbr_1963 * (northern_region_fr_1993 / tfr_1993)
     )
-    # demog.SetBirthRate(CrudeRate(northern_region_cbr_1963))
-    # demog.SetMortalityRate(CrudeRate(national_cdr_1963))
-    # demog.SetEquilibriumAgeDistFromBirthAndMortRates(
-    #     CrudeRate(northern_region_cbr_1963), CrudeRate(national_cdr_1963)
-    # )
-    demog.SetEquilibriumVitalDynamics()
-    age_distribution = Distributions.AgeDistribution_SSAfrica
-    demog.SetAgeDistribution(age_distribution)
+    demog.SetBirthRate(CrudeRate(northern_region_cbr_1963))
+    demog.SetMortalityRate(CrudeRate(national_cdr_1963))
+    demog.SetEquilibriumAgeDistFromBirthAndMortRates(
+        CrudeRate(northern_region_cbr_1963), CrudeRate(national_cdr_1963)
+    )
+    # demog.SetEquilibriumVitalDynamics()
+    # age_distribution = Distributions.AgeDistribution_SSAfrica
+    # demog.SetAgeDistribution(age_distribution)
     return demog
 
 
 def pickup_day(year, source_day):
-    """Convert a source's cumulative day to a day relative to the pickup start."""
+    """Convert a source's cumulative day to a day relative to pickup year."""
     return (int(year) - PICKUP_START_YEAR) * 365 + int(source_day) % 365
+
+
+def pickup_absolute_day(year, source_day):
+    """Convert an intervention date to the resumed simulation's day axis."""
+    return PICKUP_START_TIME + pickup_day(year, source_day)
 
 
 def read_pickup_interventions():
@@ -141,7 +152,7 @@ def build_pickup_campaign(
     add_scale_larval_habitats(
         campaign,
         df=pd.DataFrame(habitat_scales),
-        start_day=1,
+        start_day=PICKUP_START_TIME + 1,
         repetitions=-1,
     )
 
@@ -149,32 +160,34 @@ def build_pickup_campaign(
     for _, row in pickup_itns.iterrows():
         itn.add_itn_scheduled(
             campaign,
-            start_day=pickup_day(row["year"], row["start_day_of_year"]),
+            start_day=pickup_absolute_day(row["year"], row["start_day_of_year"]),
             demographic_coverage=float(row["coverage"]),
             repetitions=1,
             node_ids=[1],
             # receiving_itn_broadcast_event="Received_ITN",
         )
 
-    for i in range(len(pickup_smc)):
-        row = pickup_smc.iloc[i]
-        smc_day = int(row['start_day'])
-        coverage = float(row['coverage'])
-        dc.add_drug_campaign(
-            campaign,
-            campaign_type="MDA",
-            drug_code="SPA",
-            start_days=[smc_day],
-            repetitions=1,
-            coverage=coverage,
-            target_group={"agemin": 0.25, "agemax": 5},
-            node_ids=[1],
-            # receiving_drugs_event_name="Received_SMC",
-        )
+    # for i in range(len(pickup_smc)):
+    #     row = pickup_smc.iloc[i]
+    #     smc_day = pickup_absolute_day(row["year"], row["start_day"])
+    #     coverage = float(row['coverage'])
+    #     dc.add_drug_campaign(
+    #         campaign,
+    #         campaign_type="MDA",
+    #         drug_code="SPA",
+    #         start_days=[smc_day],
+    #         repetitions=1,
+    #         coverage=coverage,
+    #         target_group={"agemin": 0.25, "agemax": 5},
+    #         node_ids=[1],
+    #         # receiving_drugs_event_name="Received_SMC",
+    #     )
 
     for i in range(len(case_management)):
         row = case_management.iloc[i]
-        cm_start_day = int(row["start_day_of_year"])
+        cm_start_day = pickup_absolute_day(
+            row["year"], row["start_day_of_year"]
+        )
         coverage = float(row["u5_effective_coverage"])
         drug = str(row['drug'])
         if('–' in drug):
@@ -266,11 +279,10 @@ def general_sim(selected_platform):
         selected_platform,
         job_directory=manifest.job_directory,
         docker_image=manifest.plat_image,
-        partition=manifest.partition,
-        time=manifest.sim_time,
-        modules=[manifest.singularity_module],
         max_running_jobs=manifest.max_running_jobs,
         plat_image=manifest.plat_image,
+        max_workers=12, 
+        max_job=12
     )
     task = EMODTask.from_default2(
         config_path="config.json",
@@ -323,15 +335,15 @@ def general_sim(selected_platform):
     add_event_recorder(
         task,
         event_list=["HappyBirthday", "Births"],
-        start_day=1,
-        end_day=PICKUP_YEARS * 365,
+        start_day=PICKUP_START_TIME + 1,
+        end_day=PICKUP_START_TIME + PICKUP_YEARS * 365,
         node_ids=[1],
         min_age_years=0,
         max_age_years=100,
     )
     for year in range(PICKUP_YEARS):
-        start_day = year * 365
         calendar_year = PICKUP_START_YEAR + year
+        start_day = PICKUP_START_TIME + year * 365
         add_malaria_summary_report(
             task,
             manifest,
@@ -351,7 +363,7 @@ def general_sim(selected_platform):
         name=f"{user}_FE_example_pickup_2014_2025",
     )
     print(f"Configured {len(burnin_df)} pickup simulations, one per burn-in state.")
-    experiment.run(wait_until_done=True, platform=platform)
+    experiment.run(wait_until_done=False, platform=platform)
     print(
         f"Submitted pickup experiment {experiment.uid}; "
         "simulations are running asynchronously."

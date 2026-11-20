@@ -1,0 +1,23 @@
+{
+    "Metadata": {
+        "DateCreated": "2026-11-18",
+        "IdReference": "Gridded world grump2.5arcmin",
+        "Resolution": "daily",
+        "DataProvenance": "NASA POWER historical daily climate through 2025; 2026-2030 projected from the 2016-2025 daily climatology, Northern Region Ghana",
+        "UpdateResolution": "CLIMATE_UPDATE_DAY",
+        "OriginalDataYears": "1963-2030",
+        "StartDayOfYear": 1,
+        "Tool": "emodpy_malaria",
+        "Author": "Institute for Disease Modeling",
+        "BottomLatitude": 9.462781,
+        "UpperLatitude": 9.462781,
+        "LeftLongitude": -0.285867,
+        "RightLongitude": -0.285867,
+        "OffsetEntryCount": 1,
+        "NumberDTKNodes": 1,
+        "NodeCount": 1,
+        "DatavalueCount": 24820,
+        "DatavaluePerCell": 24820
+    },
+    "NodeOffsets": "0000000100000000"
+}

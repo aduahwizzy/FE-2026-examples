@@ -104,10 +104,10 @@ def general_sim(selected_platform):
     # Set platform and associated values, such as the maximum number of jobs to run at one time.
     # All cluster-specific settings live in manifest.py so users only edit that file.
     platform = Platform(selected_platform, job_directory=manifest.job_directory, docker_image=manifest.plat_image,
-                            partition=manifest.partition, time=manifest.sim_time,
-                            modules=[manifest.singularity_module],
                             max_running_jobs=manifest.max_running_jobs,
-                            plat_image=manifest.plat_image)
+                            plat_image=manifest.plat_image,
+                            max_workers=12,
+                            max_job=12)
 
     # create EMODTask 
     print("Creating EMODTask (from files)...")
@@ -156,15 +156,15 @@ def general_sim(selected_platform):
                                     filename_suffix=f'Monthly_U5_{sim_year}')
 
     # The last step is to call run() on the ExperimentManager to run the simulations.
-    experiment.run(wait_until_done=True, platform=platform)
+    experiment.run(wait_until_done=False, platform=platform)
 
 
     # Check result
-    if not experiment.succeeded:
-        print(f"Experiment {experiment.uid} failed.\n")
-        exit()
+    # if not experiment.succeeded:
+    #     print(f"Experiment {experiment.uid} failed.\n")
+    #     exit()
 
-    print(f"Experiment {experiment.uid} succeeded.")
+    # print(f"Experiment {experiment.uid} succeeded.")
 
 
 

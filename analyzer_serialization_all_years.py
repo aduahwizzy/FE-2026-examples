@@ -1,3 +1,4 @@
+import argparse
 import os
 import datetime
 import pandas as pd
@@ -21,7 +22,16 @@ expts = {
         #'week2_weather' : '2c090358-cb7b-44e5-a2fd-842a6c23a5b7'
         # 'anaphase21_FE_example_pickup_proj' : '629bf235-b04c-4bb6-b159-b5db0cdd19fc'
         # 'anaphase21_FE_example_pickup_proj' : '934ff90d-a2bb-49ab-bf75-717c191d41ed'
-        'anaphase21_FE_example_pickup_proj' : '036b5e66-552f-41d5-955e-56122909fe82'
+        # 'anaphase21_FE_example_pickup_proj' : '8fa602c1-d78e-4814-9446-3547ce5a3cc2'
+        # 'anaphase21_FE_example_pickup_proj' : '7dcf3fff-13cd-44d5-995a-1aa450b41470'
+        # 'anaphase21_FE_example_pickup_proj' : 'd370a5b7-12a5-4e3e-8383-5f1ee78399c6'
+        # 'anaphase21_FE_example_pickup_proj_test' : '59d6a74e-1960-4793-935f-9e8676c54f1c'
+        # 'anaphase21_FE_example_pickup_proj_test' : '18e6e63b-c4bc-4299-8027-8114f9809051'
+        # 'anaphase21_FE_example_pickup_proj_test' : '6b1aac24-0d17-45fb-aeb9-826a1db75d41'
+        # 'anaphase21_FE_example_pickup_proj_test' : 'ca510e5e-58db-44bf-aefb-d6070d98be2e'
+        # 'anaphase21_FE_example_burnin_proj_test' : '2e204e86-d11e-4706-9884-fa50df3d1888'
+        # 'anaphase21_FE_example_pickup_proj_test' : 'd5d0af82-d227-4945-9c0e-d5eea32c2214' # With SMC
+        'anaphase21_FE_example_pickup_proj_test' : 'ae7d5184-f340-4b8d-aac4-34b7ed9d36fa' # Without SMC
     }
 
 class InsetChartAnalyzer(IAnalyzer):
@@ -63,8 +73,7 @@ class InsetChartAnalyzer(IAnalyzer):
             print("No data have been returned... Exiting...")
             return
 
-        if not os.path.exists(os.path.join(self.working_dir, self.expt_name)):
-            os.mkdir(os.path.join(self.working_dir, self.expt_name))
+        os.makedirs(os.path.join(self.working_dir, self.expt_name), exist_ok=True)
 
         adf = pd.concat(selected).reset_index(drop=True)
         adf.to_csv(os.path.join(self.working_dir, self.expt_name, 'All_Age_InsetChart.csv'), index=False)
@@ -189,8 +198,7 @@ class MonthlyPfPRAnalyzer(IAnalyzer):
             print("\nWarning: No data have been returned... Exiting...")
             return
 
-        if not os.path.exists(os.path.join(self.working_dir, self.expt_name)):
-            os.mkdir(os.path.join(self.working_dir, self.expt_name))
+        os.makedirs(os.path.join(self.working_dir, self.expt_name), exist_ok=True)
 
         print(f'\nSaving outputs to: {os.path.join(self.working_dir, self.expt_name)}')
 
@@ -200,11 +208,23 @@ class MonthlyPfPRAnalyzer(IAnalyzer):
         
 if __name__ == "__main__":
 
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--scenario",
+        choices=["smc", "no-smc"],
+        required=True,
+        help="Label the analyzed experiment and choose its output subdirectory.",
+    )
+    args = parser.parse_args()
+    scenario_directory = (
+        "smc_simulations" if args.scenario == "smc" else "non_smc_simulations"
+    )
+
     from idmtools.analysis.analyze_manager import AnalyzeManager
     from idmtools.core import ItemType
     from idmtools.core.platform_factory import Platform
 
-    start_year = 2014
+    start_year = 2013
 
     jdir = manifest.job_directory
     wdir = os.path.join(jdir, 'my_outputs')
@@ -230,6 +250,9 @@ if __name__ == "__main__":
     with Platform('Container',job_directory=jdir, docker_image=manifest.plat_image) as platform:
 
         for expt_name, exp_id in expts.items():
+            analysis_expt_name = os.path.join(expt_name, scenario_directory)
+            os.makedirs(os.path.join(wdir, analysis_expt_name), exist_ok=True)
+
             # analyzers_burnin = [InsetChartAnalyzer(expt_name=expt_name,
             #                         channels=channels_inset_chart,
             #                         start_year=start_year - serialize_years,
@@ -244,7 +267,7 @@ if __name__ == "__main__":
 
             elif step == 'pickup':
                 inset_chart_analyzer = InsetChartAnalyzer(
-                    expt_name=expt_name,
+                    expt_name=analysis_expt_name,
                     channels=channels_inset_chart,
                     start_year=start_year,
                     sweep_variables=sweep_variables,
@@ -258,13 +281,17 @@ if __name__ == "__main__":
                 )
                 am.analyze()
 
-                for i in range(0, 12):
+                for i in range(0, 13):
                     malaria_summary_report_dataset_name = f'output/MalariaSummaryReport_Monthly_U5_{start_year+i}.json'
-                    analyzers_pickup = [MonthlyPfPRAnalyzer(expt_name=expt_name,
-                                        start_year=start_year+i,
-                                        sweep_variables=sweep_variables,
-                                        working_dir=wdir, filenames=[malaria_summary_report_dataset_name])
-                                    ]
+                    analyzers_pickup = [
+                        MonthlyPfPRAnalyzer(
+                            expt_name=analysis_expt_name,
+                            start_year=start_year + i,
+                            sweep_variables=sweep_variables,
+                            working_dir=wdir,
+                            filenames=[malaria_summary_report_dataset_name],
+                        )
+                    ]
                     am = AnalyzeManager(configuration={}, ids=[(exp_id, ItemType.EXPERIMENT)],
                                     analyzers=analyzers_pickup, partial_analyze_ok=True)
                     am.analyze()
@@ -276,8 +303,10 @@ if __name__ == "__main__":
 
     # read in analyzed InsetChart data
     expt_name=list(expts.keys())[0]
+    analysis_expt_name = os.path.join(expt_name, scenario_directory)
     inset_chart_dataset_name = 'All_Age_InsetChart.csv'
-    inset_chart_csv = os.path.join(wdir, expt_name, inset_chart_dataset_name)
+    output_directory = os.path.join(wdir, analysis_expt_name)
+    inset_chart_csv = os.path.join(output_directory, inset_chart_dataset_name)
     if not os.path.isfile(inset_chart_csv):
         raise FileNotFoundError(
             f"{inset_chart_csv} was not generated. Confirm the pickup experiment "
@@ -314,13 +343,13 @@ if __name__ == "__main__":
     if plot_variables:
         axes[-1].legend(title=', '.join(plot_variables))
     plt.tight_layout()
-    fig1.savefig(os.path.join(wdir, expt_name, 'InsetChart.png'))
+    fig1.savefig(os.path.join(output_directory, 'InsetChart.png'))
     plt.clf()
     
-    # Plot annual means from all pickup years together, rather than making a
-    # separate month-of-year figure for each annual report.
+    # Plot annual means separately by age group. With report bins
+    # [0.25, 5, 115], under-five combines the first two bins.
     channels_inset_chart = ['PfPR', 'Cases', 'Severe_cases', 'New_infections', 'Pop']
-    malaria_report_files = os.listdir(os.path.join(wdir, expt_name))
+    malaria_report_files = os.listdir(output_directory)
     malaria_summary_report_dataset_names = sorted(
         file for file in malaria_report_files
         if file.endswith('.csv') and 'PfPR_ClinicalIncidence' in file
@@ -328,44 +357,73 @@ if __name__ == "__main__":
     if malaria_summary_report_dataset_names:
         df = pd.concat(
             [
-                pd.read_csv(os.path.join(wdir, expt_name, filename))
+                pd.read_csv(os.path.join(output_directory, filename))
                 for filename in malaria_summary_report_dataset_names
             ],
             ignore_index=True,
         )
         df['Year'] = pd.to_numeric(df['Year'])
-        df = df.groupby(['Year'] + plot_variables)[channels_inset_chart].agg(
-            np.mean
-        ).reset_index()
-
-        fig1 = plt.figure('Malaria Summary - All Years', figsize=(12, 6))
-        fig1.subplots_adjust(hspace=0.5, left=0.08, right=0.97)
-        fig1.suptitle('Malaria Summary: Annual Means Across All Years')
-        axes = [fig1.add_subplot(2, 3, x + 1) for x in range(5)]
-        for ch, channel in enumerate(channels_inset_chart):
-            ax = axes[ch]
-
-            for run_number, pdf in df.groupby('Run_Number'):
-                ax.plot(
-                    pdf['Year'],
-                    pdf[channel],
-                    '-o',
-                    linewidth=0.8,
-                    label=f'Run_Number={run_number}',
-                )
-            ax.set_title(channel)
-            ax.set_ylabel(channel)
-            ax.set_xlabel('Year')
-            ax.set_xticks(sorted(df['Year'].unique()))
-            ax.tick_params(axis='x', labelrotation=45)
-        if plot_variables:
-            axes[-1].legend(title=', '.join(plot_variables))
-        plt.tight_layout()
-        fig1.savefig(
-            os.path.join(
-                wdir,
-                expt_name,
-                'Malaria_Summary_InsetChart_All_Years.png',
+        df['agebin'] = pd.to_numeric(df['agebin'])
+        age_groups = [
+            ([0.25, 5], 'Under 5', 'Malaria_Summary_U5_All_Years.png'),
+            ([115], 'Age 5+', 'Malaria_Summary_Age5Plus_All_Years.png'),
+        ]
+        available_age_bins = set(df['agebin'].dropna().unique())
+        expected_age_bins = {0.25, 5, 115}
+        missing_age_bins = expected_age_bins - available_age_bins
+        if missing_age_bins:
+            raise ValueError(
+                "Malaria summary data is missing expected age-bin labels "
+                f"{sorted(missing_age_bins)}; expected [0.25, 5, 115] from "
+                "report age_bins=[0.25, 5, 115]."
             )
-        )
-        plt.clf()
+
+        month_keys = ['Year'] + plot_variables + ['month']
+        for age_bins, age_label, filename in age_groups:
+            age_df = df.loc[df['agebin'].isin(age_bins)].copy()
+            if len(age_bins) > 1:
+                # PfPR and incidence are rates; combine the two under-five
+                # bins using their populations instead of averaging rates.
+                population = age_df.groupby(month_keys)['Pop'].sum()
+                age_summary = population.to_frame()
+                for channel in channels_inset_chart[:-1]:
+                    weighted_total = (
+                        age_df[channel] * age_df['Pop']
+                    ).groupby(
+                        [age_df[key] for key in month_keys],
+                        sort=False,
+                    ).sum()
+                    age_summary[channel] = weighted_total / population
+                age_df = age_summary.reset_index()
+
+            age_df = age_df.groupby(
+                ['Year'] + plot_variables
+            )[channels_inset_chart].agg(np.mean).reset_index()
+
+            fig1 = plt.figure(f'Malaria Summary - {age_label}', figsize=(12, 6))
+            fig1.subplots_adjust(hspace=0.5, left=0.08, right=0.97)
+            fig1.suptitle(
+                f'Malaria Summary: Annual Means Across All Years ({age_label})'
+            )
+            axes = [fig1.add_subplot(2, 3, x + 1) for x in range(5)]
+            for ch, channel in enumerate(channels_inset_chart):
+                ax = axes[ch]
+
+                for run_number, pdf in age_df.groupby('Run_Number'):
+                    ax.plot(
+                        pdf['Year'],
+                        pdf[channel],
+                        '-o',
+                        linewidth=0.8,
+                        label=f'Run_Number={run_number}',
+                    )
+                ax.set_title(channel)
+                ax.set_ylabel(channel)
+                ax.set_xlabel('Year')
+                ax.set_xticks(sorted(age_df['Year'].unique()))
+                ax.tick_params(axis='x', labelrotation=45)
+            if plot_variables:
+                axes[-1].legend(title=', '.join(plot_variables))
+            plt.tight_layout()
+            fig1.savefig(os.path.join(output_directory, filename))
+            plt.close(fig1)

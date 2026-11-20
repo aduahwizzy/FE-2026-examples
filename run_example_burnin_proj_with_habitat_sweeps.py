@@ -33,7 +33,7 @@ from emodpy_malaria.interventions.scale_larval_habitats import (
 import manifest
 
 sim_years = 50
-num_seeds = 1
+num_seeds = 3
 sim_start_year = 1963
 serialize_years = 50
 TFR_1993 = 5.5
@@ -66,11 +66,18 @@ SPECIES_HABITATS = {
 # floating-point exception in some Eradication builds during egg laying.
 # To test near-zero habitat, use a small positive value (for example 0.01) and
 # confirm the behavior in a short test run.
-scale_water_veg_values = list(np.logspace(-0.5, 0.7, 2))+[0.01]
-scale_temp_rain_values = list(np.logspace(0.0, 1.5, 3))
+scale_water_veg_values = list(np.logspace(0.01, 0.7, 3))
+scale_temp_rain_values = list(np.logspace(0.01, 0.7, 4))
 scale_constant_values = [1.0]
-# scale_temp_rain_values = [0.5, 1.0, 2.0]
-# scale_water_veg_values = [0.5, 1.0, 2.0]
+
+# x_temporary_larval_habitat_values = np.logspace(
+#     np.log10(1.258925) - 0.3,
+#     np.log10(1.258925) + 0.3,
+#     4,
+# )
+x_temporary_larval_habitat_values = np.logspace(0.1, 1.2, 4)
+# scale_water_veg_values = list(np.logspace(-3, -1, 2))
+# scale_temp_rain_values = list(np.logspace(-0.3, 0.3, 2))
 
 if any(value <= 0 or not np.isfinite(value)
        for value in scale_water_veg_values + scale_temp_rain_values + scale_constant_values):
@@ -87,12 +94,12 @@ habitat_scale_combinations = list(
 )
 
 # Preserve the original global habitat sweep, which scales ALL habitat types.
-x_temporary_larval_habitat_values = np.logspace(0.1, 0.9, 3)
+# x_temporary_larval_habitat_values = np.logspace(0.1, 0.9, 4)
 
 def build_interventions_data():
-    itns = pd.read_csv('/home/anaphase21/emod-tutorials/FE-2026-examples/inputs/itn_irs_interventions.csv')
+    itns = pd.read_csv('/home/anaphase21/emod-tutorial/FE-2026-examples/inputs/itn_irs_interventions.csv')
     itns = itns[(itns['intervention']=='itn') & (itns['phase']=='burnin')]
-    case_management = pd.read_csv('/home/anaphase21/emod-tutorials/FE-2026-examples/inputs/case_management.csv')
+    case_management = pd.read_csv('/home/anaphase21/emod-tutorial/FE-2026-examples/inputs/case_management.csv')
     cm_cols = ['start_day_of_year', 'drug', 'u5_coverage', 'proportion_with_fever', 'u5_effective_coverage', 'phase']
     case_management = case_management[cm_cols]
     case_management = case_management[case_management['phase']=='burnin']
@@ -177,7 +184,7 @@ def set_param_fn(config):
     return config
 
 def get_smc_start_days_and_coverages():
-    smc_interventions = pd.read_csv('/home/anaphase21/emod-tutorials/FE-2026-examples/inputs/interventions_SMC.csv')
+    smc_interventions = pd.read_csv('/home/anaphase21/emod-tutorial/FE-2026-examples/inputs/interventions_SMC.csv')
     smc_start_days = smc_interventions['start_day'].tolist()
     smc_coverages = smc_interventions['coverage'].tolist()
     smc_start_days_coverages = {}
@@ -294,13 +301,13 @@ def build_demog():
     """
 
     demog = Demographics.from_template_node(lat=9.462781, lon=-0.285867, pop=1000, name="tamale")
-    # demog.SetBirthRate(CrudeRate(NORTHERN_REGION_CBR_1963))
-    # demog.SetMortalityRate(CrudeRate(NORTHERN_REGION_CDR_1963))
-    # demog.SetEquilibriumAgeDistFromBirthAndMortRates(CrudeRate(NORTHERN_REGION_CBR_1963), CrudeRate(NORTHERN_REGION_CDR_1963))
-    demog.SetEquilibriumVitalDynamics()
+    demog.SetBirthRate(CrudeRate(NORTHERN_REGION_CBR_1963))
+    demog.SetMortalityRate(CrudeRate(NORTHERN_REGION_CDR_1963))
+    demog.SetEquilibriumAgeDistFromBirthAndMortRates(CrudeRate(NORTHERN_REGION_CBR_1963), CrudeRate(NORTHERN_REGION_CDR_1963))
+    # demog.SetEquilibriumVitalDynamics()
 
-    age_distribution = Distributions.AgeDistribution_SSAfrica
-    demog.SetAgeDistribution(age_distribution)
+    # age_distribution = Distributions.AgeDistribution_SSAfrica
+    # demog.SetAgeDistribution(age_distribution)
     return demog
 
 def set_param(simulation, param, value):
@@ -347,10 +354,10 @@ def general_sim(selected_platform):
     # Set platform and associated values, such as the maximum number of jobs to run at one time.
     # All cluster-specific settings live in manifest.py so users only edit that file.
     platform = Platform(selected_platform, job_directory=manifest.job_directory, docker_image=manifest.plat_image,
-                            partition=manifest.partition, time=manifest.sim_time,
-                            modules=[manifest.singularity_module],
                             max_running_jobs=manifest.max_running_jobs,
-                            plat_image=manifest.plat_image)
+                            plat_image=manifest.plat_image,
+                            max_workers=12,
+                            max_job=12)
 
     # create EMODTask 
     print("Creating EMODTask (from files)...")
@@ -441,15 +448,15 @@ def general_sim(selected_platform):
     )
 
     # The last step is to call run() on the ExperimentManager to run the simulations.
-    experiment.run(wait_until_done=True, platform=platform)
+    experiment.run(wait_until_done=False, platform=platform)
 
 
     # Check result
-    if not experiment.succeeded:
-        print(f"Experiment {experiment.uid} failed.\n")
-        exit()
+    # if not experiment.succeeded:
+    #     print(f"Experiment {experiment.uid} failed.\n")
+    #     exit()
 
-    print(f"Experiment {experiment.uid} succeeded.")
+    # print(f"Experiment {experiment.uid} succeeded.")
 
 
 

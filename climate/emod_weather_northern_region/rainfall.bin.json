@@ -1,11 +1,11 @@
 {
     "Metadata": {
-        "DateCreated": "2026-10-06",
+        "DateCreated": "2026-11-14",
         "IdReference": "Gridded world grump2.5arcmin",
         "Resolution": "daily",
-        "DataProvenance": "NASA POWER daily 2019-01-01 through 2023-12-31, northern_region",
+        "DataProvenance": "NASA POWER daily 1963-01-01 through 2025-12-31, northern_region",
         "UpdateResolution": "CLIMATE_UPDATE_DAY",
-        "OriginalDataYears": "2019-2023",
+        "OriginalDataYears": "1963-2025",
         "StartDayOfYear": 1,
         "Tool": "emodpy_malaria",
         "Author": "Institute for Disease Modeling",
@@ -16,8 +16,8 @@
         "OffsetEntryCount": 1,
         "NumberDTKNodes": 1,
         "NodeCount": 1,
-        "DatavalueCount": 1825,
-        "DatavaluePerCell": 1825
+        "DatavalueCount": 22995,
+        "DatavaluePerCell": 22995
     },
     "NodeOffsets": "0000000100000000"
 }
